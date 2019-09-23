@@ -7485,7 +7485,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit6 {
   font-family: Old-Emma;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
   line-height: 1.2;
   color: white;
   text-transform: uppercase;
@@ -7689,7 +7689,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt21 {
   font-family: Old-Emma;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 23px;
   color: #222222;
   line-height: 1.4;
@@ -8094,6 +8094,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
   .hov-img-zoom img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
     -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -moz-transition: all 0.6s;

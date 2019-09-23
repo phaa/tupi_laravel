@@ -13,7 +13,7 @@ Cardápio
 		</h2>
 	</section>
 
-
+ 
 	<!-- Main menu -->
 	<section class="section-mainmenu p-t-110 p-b-70 bg1-pattern">
 		<div class="container">
@@ -28,20 +28,47 @@ Cardápio
 					<!-- Block3 -->
 					<div class="blo3 flex-w flex-col-l-sm m-b-30">
 						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-							<a href="#"><img src="images/lunch-01.jpg" alt="IMG-MENU"></a>
+							<a href="{{ asset('images/menu/oca.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset("images/menu/oca.jpg") }}" alt="Camarão Oca">
+							</a>
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
 							<span class="txt21 m-b-3">
+								Camarão na Oca
+							</span>
+
+							<span class="txt23">
+								Camarão empanado com arroz cremoso e fritas
+							</span>
+
+							<span class="txt22 m-t-20">
+								R$69,00 - 2 pessoas <br>
+								R$140,00 - 4 pessoas
+							</span>
+						</div>
+					</div>
+
+					<!-- Block3 -->
+					<div class="blo3 flex-w flex-col-l-sm m-b-30">
+						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+							<a href="{{ asset('images/menu/seridoense.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset("images/menu/seridoense.jpg") }}" alt="Camarão Seridoense">
+							</a>
+						</div>
+
+						<div class="text-blo3 size21 flex-col-l-m">
+							<a href="#" class="txt21 m-b-3">
 								Camarão Seridoense
-							</span>
+							</a>
 
 							<span class="txt23">
-								Aenean pharetra tortor dui in pellentesque
+								Camarão salteado com creme de macaxeira. Acompanha arroz, farofa e macaxeira frita
 							</span>
 
 							<span class="txt22 m-t-20">
-								$29.79
+								R$69,00 - 2 pessoas <br>
+								R$140,00 - 4 pessoas
 							</span>
 						</div>
 					</div>
@@ -49,41 +76,23 @@ Cardápio
 					<!-- Block3 -->
 					<div class="blo3 flex-w flex-col-l-sm m-b-30">
 						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-							<a href="#"><img src="images/lunch-03.jpg" alt="IMG-MENU"></a>
+							<a href="{{ asset('images/menu/pituba.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset("images/menu/pituba.jpg") }}" alt="Carne de Sol Pituba">
+							</a>
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
 							<a href="#" class="txt21 m-b-3">
-								tempus aliquet
+								Carne de Sol Pituba
 							</a>
 
 							<span class="txt23">
-								Aenean condimentum ante erat
+								Acompanha baião de dois, farofa e vinagrete
 							</span>
 
 							<span class="txt22 m-t-20">
-								$45.09
-							</span>
-						</div>
-					</div>
-
-					<!-- Block3 -->
-					<div class="blo3 flex-w flex-col-l-sm m-b-30">
-						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-							<a href="#"><img src="images/lunch-05.jpg" alt="IMG-MENU"></a>
-						</div>
-
-						<div class="text-blo3 size21 flex-col-l-m">
-							<a href="#" class="txt21 m-b-3">
-								Duis massa
-							</a>
-
-							<span class="txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
-							</span>
-
-							<span class="txt22 m-t-20">
-								$12.75
+								R$69,00 - 2 pessoas <br>
+								R$140,00 - 4 pessoas
 							</span>
 						</div>
 					</div>
@@ -93,20 +102,23 @@ Cardápio
 					<!-- Block3 -->
 					<div class="blo3 flex-w flex-col-l-sm m-b-30">
 						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-							<a href="#"><img src="images/lunch-02.jpg" alt="IMG-MENU"></a>
+							<a href="{{ asset('images/menu/croquete.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset("images/menu/croquete.jpg") }}" alt="Croquete de Charque">
+							</a>
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
 							<a href="#" class="txt21 m-b-3">
-								sbrisalona
+								Croquete de Charque
 							</a>
 
 							<span class="txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
+								Croquete de Charque com Jerimun 
 							</span>
 
 							<span class="txt22 m-t-20">
-								$29.79
+								R$18,00 <br>
+								Tamanho ùnico
 							</span>
 						</div>
 					</div>
@@ -114,20 +126,23 @@ Cardápio
 					<!-- Block3 -->
 					<div class="blo3 flex-w flex-col-l-sm m-b-30">
 						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-							<a href="#"><img src="images/lunch-04.jpg" alt="IMG-MENU"></a>
+							<a href="{{ asset('images/menu/moqueca_peixe.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset("images/menu/moqueca_peixe.jpg") }}" alt="Moqueca de Peixe e Camarão">
+							</a>
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
 							<a href="#" class="txt21 m-b-3">
-								Cras eget magna
+								Moqueca de Peixe e Camarão
 							</a>
 
 							<span class="txt23">
-								Sed fermentum eros vitae eros
+								Acompanha arroz, farofa e pirão
 							</span>
 
 							<span class="txt22 m-t-20">
-								$45.09
+								R$69,00 - 2 pessoas <br>
+								R$140,00 - 4 pessoas
 							</span>
 						</div>
 					</div>
@@ -135,20 +150,23 @@ Cardápio
 					<!-- Block3 -->
 					<div class="blo3 flex-w flex-col-l-sm m-b-30">
 						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-							<a href="#"><img src="images/lunch-06.jpg" alt="IMG-MENU"></a>
+							<a href="{{ asset('images/menu/ratas.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset("images/menu/ratas.jpg") }}" alt="Moqueca de Peixe e Camarão">
+							</a>
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
 							<a href="#" class="txt21 m-b-3">
-								Nullam maximus
+								Ratas e Ratinhas
 							</a>
 
 							<span class="txt23">
-								Duis massa nibh porttitor nec imperdiet eget
+								Um prato que ainda não tem nome
 							</span>
 
 							<span class="txt22 m-t-20">
-								$12.75
+								R$69,00 - 2 pessoas <br>
+								R$140,00 - 4 pessoas
 							</span>
 						</div>
 					</div>

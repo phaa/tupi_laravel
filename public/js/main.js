@@ -93,6 +93,17 @@
 
     // init Isotope
     $(window).on('load', function () {
+
+        $('.wrap-menu-header').css('border-top', '5px solid #43A906');
+        console.log("instiga");
+
+        if($(this).scrollTop() > 5 && $(this).width() > 992) {
+            $(header).addClass('header-fixed');
+        }
+        else {
+            $(header).removeClass('header-fixed');
+        }
+
         var $grid = $topeContainer.each(function () {
             $(this).isotope({
                 itemSelector: '.isotope-item',
@@ -116,7 +127,4 @@
             $(this).addClass('is-actived');
         });
     });
-
-
-
 })(jQuery);

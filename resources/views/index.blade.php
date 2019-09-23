@@ -56,6 +56,7 @@ Restaurante Tupi
 <!-- Welcome -->
 <section class="section-welcome bg1-pattern p-t-120 p-b-70">
 	<div class="container">
+		<!-- A little about -->
 		<div class="row">
 			<div class="col-md-6 p-t-35 p-b-30">
 				<div class="wrap-text-welcome t-center">
@@ -79,27 +80,25 @@ Restaurante Tupi
                         A proposta da casa é comer bem e relaxar. O espaço proporciona às
 						famílias momentos de paz e bem-estar em meio à natureza enquanto desfrutam de nossos preparos.
 					</p>
-
-				</div>
-			</div>
-
-			<div class="col-md-6 p-b-30">
-                <div class="bo-rad-10 hov-img-zoom m-l-r-auto">
-                    <a href="{{ asset('images/original/entrada.jpg') }}" data-lightbox="gallery">
-                        <img src="{{ asset('images/thumbs/entrada.jpg') }}" alt="Entrada Tupi">
-                    </a>
-                </div>
-				<div class="text-right p-b-30 m-t-25">
-					<a href="{{ route('about') }}" class="txt5" style="font-size: 28px;">
+					<a href="{{ route('about') }}" class="txt5">
 						Leia Mais
 						<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
 					</a>
 				</div>
 			</div>
+
+			<div class="col-md-6 p-b-30">
+                <div style="height: 100%;" class="bo-rad-10 hov-img-zoom m-l-r-auto">
+                    <a href="{{ asset('images/original/entrada.jpg') }}" data-lightbox="gallery">
+                        <img style="object-fit: cover;" src="{{ asset('images/thumbs/entrada.jpg') }}" alt="Entrada Tupi">
+                    </a>
+                </div>
+			</div>
 		</div>
 
+		<!-- A little about space -->
         <div class="row">
-			<div class="wrap-text-welcome container t-center">
+			<div class="wrap-text-welcome container t-center m-t-30">
 				<span class="tit2 p-l-15 p-r-15">
 					Conheça um pouco
 				</span>
@@ -190,13 +189,13 @@ Restaurante Tupi
 <section class="p-t-105 p-b-105">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
-			Siga o mapa e
+			Nos veja no mapa
 		</span>
         <h3 class="tit3 m-b-25 m-t-5 contact-footer">
             Encontre a gente!
         </h3>
         <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
-            <!--iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe-->
+            <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
     </div>
 </section>
