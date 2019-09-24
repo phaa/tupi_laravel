@@ -1,5 +1,19 @@
 (function ($) {
     "use strict";
+    
+    /*[ On page load ]
+    ===========================================================*/
+
+    //Prevent hidden header bug
+    $(window).on("load", function(){
+        if($(this).scrollTop() > 5 && $(this).width() > 992) {
+            $(header).addClass('header-fixed');
+        }
+        else {
+            $(header).removeClass('header-fixed');
+        }
+        $('.wrap-menu-header').css('border-top', '5px solid #43A906');
+    });
 
     /*[ Back to top ]
     ===========================================================*/
@@ -37,7 +51,7 @@
     /*[ Fixed Header ]
     ===========================================================*/
     var header = $('header');
-    var logo = $(header).find('.logo img');
+    //var logo = $(header).find('.logo img');
 
     $(window).on('scroll',function(){
         if($(this).scrollTop() > 5 && $(this).width() > 992) {
@@ -52,59 +66,50 @@
     ===========================================================*/
     $('body').append('<div class="overlay-sidebar trans-0-4"></div>');
     var ovlSideBar = $('.overlay-sidebar');
-    var btnShowSidebar = $('.hamburger');
-    var btnHideSidebar = $('.btn-hide-sidebar');
+    var hamburger = $("#myHamburger");
+    var toogledHamburger = $('#sidebarHamburger');
     var sidebar = $('.sidebar');
-    var $hamburger = $(".hamburger");
 
-    $(btnShowSidebar).on('click', function(){
-        $hamburger.toggleClass("is-active");
-        $(sidebar).addClass('show-sidebar');
-        $(ovlSideBar).addClass('show-overlay-sidebar');
+    var callback = function() {
+        hamburger.toggleClass("hidden");
+        hamburger.toggleClass("is-active");
+        toogledHamburger.toggleClass("is-active");
+        sidebar.toggleClass('show-sidebar');
+        ovlSideBar.toggleClass('show-overlay-sidebar');
+        $("body, html").toggleClass("overflow-diff");
+    }
+
+    hamburger.on('click', function(){
+        callback();
     })
 
-    $(btnHideSidebar).on('click', function(){
-        $hamburger.toggleClass("is-active");
-        $(sidebar).removeClass('show-sidebar');
-        $(ovlSideBar).removeClass('show-overlay-sidebar');
+    toogledHamburger.on('click', function(){
+        callback();
     })
 
     //parte preta fira da sidebar
-    $(ovlSideBar).on('click', function(){
-        $hamburger.toggleClass("is-active");
-        $(sidebar).removeClass('show-sidebar');
-        $(ovlSideBar).removeClass('show-overlay-sidebar');
+    ovlSideBar.on('click', function(){
+        callback();
     })
 
 
     /*[ Isotope ]
     ===========================================================*/
-    var $topeContainer = $('.isotope-grid');
-    var $filter = $('.filter-tope-group');
+    var topeContainer = $('.isotope-grid');
+    var filter = $('.filter-tope-group');
 
     // filter items on button click
-    $filter.each(function () {
-        $filter.on('click', 'button', function () {
+    filter.each(function () {
+        filter.on('click', 'button', function () {
             var filterValue = $(this).attr('data-filter');
-            $topeContainer.isotope({filter: filterValue});
+            topeContainer.isotope({filter: filterValue});
         });
 
     });
 
     // init Isotope
     $(window).on('load', function () {
-
-        $('.wrap-menu-header').css('border-top', '5px solid #43A906');
-        console.log("instiga");
-
-        if($(this).scrollTop() > 5 && $(this).width() > 992) {
-            $(header).addClass('header-fixed');
-        }
-        else {
-            $(header).removeClass('header-fixed');
-        }
-
-        var $grid = $topeContainer.each(function () {
+        var grid = topeContainer.each(function () {
             $(this).isotope({
                 itemSelector: '.isotope-item',
                 percentPosition: true,

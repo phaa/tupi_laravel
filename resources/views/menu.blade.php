@@ -15,7 +15,7 @@ Cardápio
 
  
 	<!-- Main menu -->
-	<section class="section-mainmenu p-t-110 p-b-70 bg1-pattern">
+	<section class="section-mainmenu p-t-110 p-b-10 bg1-pattern">
 		<div class="container">
 			<div class="row justify-content-md-center m-b-50">
             <div class="col text-center">
@@ -41,11 +41,6 @@ Cardápio
 							<span class="txt23">
 								Camarão empanado com arroz cremoso e fritas
 							</span>
-
-							<span class="txt22 m-t-20">
-								R$69,00 - 2 pessoas <br>
-								R$140,00 - 4 pessoas
-							</span>
 						</div>
 					</div>
 
@@ -65,11 +60,6 @@ Cardápio
 							<span class="txt23">
 								Camarão salteado com creme de macaxeira. Acompanha arroz, farofa e macaxeira frita
 							</span>
-
-							<span class="txt22 m-t-20">
-								R$69,00 - 2 pessoas <br>
-								R$140,00 - 4 pessoas
-							</span>
 						</div>
 					</div>
 
@@ -88,11 +78,6 @@ Cardápio
 
 							<span class="txt23">
 								Acompanha baião de dois, farofa e vinagrete
-							</span>
-
-							<span class="txt22 m-t-20">
-								R$69,00 - 2 pessoas <br>
-								R$140,00 - 4 pessoas
 							</span>
 						</div>
 					</div>
@@ -115,11 +100,6 @@ Cardápio
 							<span class="txt23">
 								Croquete de Charque com Jerimun 
 							</span>
-
-							<span class="txt22 m-t-20">
-								R$18,00 <br>
-								Tamanho ùnico
-							</span>
 						</div>
 					</div>
 
@@ -139,11 +119,6 @@ Cardápio
 							<span class="txt23">
 								Acompanha arroz, farofa e pirão
 							</span>
-
-							<span class="txt22 m-t-20">
-								R$69,00 - 2 pessoas <br>
-								R$140,00 - 4 pessoas
-							</span>
 						</div>
 					</div>
 
@@ -162,11 +137,6 @@ Cardápio
 
 							<span class="txt23">
 								Um prato que ainda não tem nome
-							</span>
-
-							<span class="txt22 m-t-20">
-								R$69,00 - 2 pessoas <br>
-								R$140,00 - 4 pessoas
 							</span>
 						</div>
 					</div>

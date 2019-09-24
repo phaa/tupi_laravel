@@ -43,11 +43,11 @@
                 </div>
 
                 <!-- Social -->
-                <div class="social flex-w flex-l-m p-r-20">
+                <div id="socialSpot" class="social flex-w flex-l-m p-r-20">
                     <a target="_blank" href="https://www.tripadvisor.com.br/ShowUserReviews-g4136730-d5752688-r452110872-Restaurante_Tupi-Goianinha_State_of_Rio_Grande_do_Norte.html"><i class="fab fa-tripadvisor" aria-hidden="true"></i></a>
                     <a target="_blank" href="#"><i class="fab fa-facebook-f m-l-21" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://www.instagram.com/restaurante_tupi"><i class="fab fa-instagram m-l-21" aria-hidden="true"></i></a>
-                    <button class="hamburger hamburger--collapse" type="button" style="color: #fff;">
+                    <button id="myHamburger" class="hamburger hamburger--collapse trans-0-4" type="button">
                         <span class="hamburger-box">
                             <span class="hamburger-inner"></span>
                         </span>

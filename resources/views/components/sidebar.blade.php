@@ -1,10 +1,14 @@
 <!-- Sidebar -->
-<aside class="sidebar trans-0-4">
+<aside class="sidebar trans-0-3">
     <!-- Button Hide sidebar -->
-    <button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+    <button id="sidebarHamburger" style="" class="hamburger hamburger--collapse trans-0-4" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
 
-    <ul class="menu-sidebar" style="margin-top:15%;">
-        <div style="padding: 40px;">
+    <ul class="menu-sidebar" style="margin-top:1%;">
+        <div style="padding: 25px;">
             <img style="width: 100%;" src="{{ asset("images/icons/tupi_logo_completa.png") }}" alt="IMG-LOGO">
         </div>
         <li class="t-center m-b-13">

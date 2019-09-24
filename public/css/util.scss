@@ -10104,7 +10104,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt22 {
   font-family: Old-Emma;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 22px;
   color: #333333;
   line-height: 1.2;
@@ -10113,7 +10113,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt23 {
   font-family: Old-Emma;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 15px;
   color: #222222;
   line-height: 1.7;
@@ -10394,6 +10394,13 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .size20 {
   width: 160px;
   height: 120px;
+}
+
+@media (max-width: 576px) {
+  .size20 {
+    width: 100%;
+    height: 230px;
+  }
 }
 
 .size21 {

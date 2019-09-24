@@ -29,6 +29,9 @@ body, html {
   -ms-user-select: none;
   user-select: none; }
 
+.overflow-diff {
+  overflow: hidden; }
+
 section {
   background-image: url(../images/textures/sackcloth-texture.jpg); }
 
@@ -152,7 +155,7 @@ iframe {
   opacity: 1;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 999;
   border-radius: 50px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -424,7 +427,7 @@ input[type="date" i] {
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid rgba(0, 0, 0, 0.7); }
+  box-sizing: border-box; }
 
 .wrap_header {
   display: -webkit-box;
@@ -595,19 +598,25 @@ input[type="date" i] {
 */
 .sidebar {
   position: fixed;
-  z-index: 1200;
+  z-index: 1000;
   width: 390px;
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
-  right: -390px; }
+  right: -100%; }
   .sidebar ul {
     margin-top: 50%; }
+  .sidebar #sidebarHamburger {
+    float: right;
+    margin-top: 35px;
+    margin-right: 14px; }
 
 @media (max-width: 576px) {
   .sidebar {
-    width: 300px; } }
+    width: 100%; }
+    .sidebar #sidebarHamburger {
+      margin-top: 18px; } }
 .show-sidebar {
   right: 0px; }
 
@@ -621,12 +630,13 @@ input[type="date" i] {
 
 .overlay-sidebar {
   position: fixed;
-  z-index: 1150;
+  z-index: 999;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  overflow: scroll; }
 
 .show-overlay-sidebar {
   visibility: visible;
@@ -1339,5 +1349,8 @@ body {
   right: 100%;
   width: 100%;
   height: 5px; }
+
+.hidden {
+  visibility: hidden; }
 
 /*# sourceMappingURL=main.css.map */
