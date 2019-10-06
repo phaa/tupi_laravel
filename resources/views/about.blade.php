@@ -1,5 +1,10 @@
 @extends('templates.layout')
 
+@section('extra_meta')
+	<meta name="description" content="Conheça a história do melhor restaurante da região sul do RN."/>
+	<link rel="canonical" href="http://restaurantetupi.com.br/sobre" />
+@endsection
+
 @section('title')
 Sobre Nós
 @endsection

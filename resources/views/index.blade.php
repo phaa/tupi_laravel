@@ -1,8 +1,14 @@
 @extends('templates.layout')
 
+@section('extra_meta')
+	<meta name="description" content="O melhor sabor nordestino na região sul do RN."/>
+	<link rel="canonical" href="http://restaurantetupi.com.br/" />
+@endsection
+
 @section('title')
 Restaurante Tupi
 @endsection
+
 <!-- Index blade -->
 @section('page_content')
 
@@ -25,7 +31,7 @@ Restaurante Tupi
             <div class="item-slick1 slide2 item2-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rollIn">
-                        Amplo espaço para toda a família
+                        Amplo espaço para a família
                     </span>
 
                     <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="lightSpeedIn">
@@ -38,7 +44,7 @@ Restaurante Tupi
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
 						Ambiente sossegado <br>
-						Vista incrível
+						Uma Vista incrível
                     </span>
 
                     <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="rotateInUpRight">
@@ -135,7 +141,7 @@ Restaurante Tupi
                     </div>
                     <div class="wrap-text-blo1 p-t-35">
                         <h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
-                            Playground Infantil
+                            Espaço Kids
                         </h4>
 
                         <p class="m-b-20">
@@ -330,10 +336,10 @@ Restaurante Tupi
 <section class="p-t-115">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
-			Veja nossas redes sociais
+			Siga-nos 
 		</span>
         <h3 class="tit3 m-b-25 m-t-5 contact-footer">
-            Siga a gente!
+            Acompanhe nosso trabalho
         </h3>
     </div>
     <div>

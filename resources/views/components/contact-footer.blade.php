@@ -3,10 +3,7 @@
     <div class="container p-t-40 p-b-70">
         <div class="row justify-content-md-center m-b-50 m-t-50">
             <div class="col text-center">
-                <span class="tit2 p-l-15 p-r-15">
-			       Contatos
-		        </span>
-                <h1 class="txt1 contact-footer">Fale com a gente!</h1>
+                <h1 class="txt1 contact-footer">Contatos</h1>
             </div>
         </div>
         
@@ -56,7 +53,7 @@
                             E-mail
                         </span>
                         <span class="txt38 size38" style="text-transform: lowercase;">
-                            restaurantetupi@hotmail.com
+                            restaurantetupi <br> @hotmail.com
                         </span>
                     </div>
                 </div>

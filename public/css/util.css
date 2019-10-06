@@ -7431,41 +7431,40 @@
   right: 0px;
   bottom: 0px; }
 
-/*=========================================================
-TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
-=========================================================*/
 /*[ Title ]
 -----------------------------------------------------------
 */
 .tit1 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-size: 90px;
   line-height: 1.1;
   color: white;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   word-spacing: 10px; }
 
 .tit2 {
-  font-family: Old-Emma;
-  font-size: 35px;
+  font-family: Inkburrow;
+  font-size: 45px;
+  font-weight: 700;
   line-height: 1.2;
-  color: #43A906; }
+  color: #43A906;
+  text-transform: uppercase; }
 
 .tit3 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 1.2;
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 6px; }
 
 .tit4 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 1.2;
   color: white;
   text-transform: uppercase;
@@ -7473,7 +7472,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   word-spacing: 6px; }
 
 .tit5 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 50px;
   line-height: 1.2;
@@ -7483,7 +7482,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   word-spacing: 8px; }
 
 .tit6 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 70px;
   line-height: 1.2;
@@ -7493,7 +7492,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   word-spacing: 6px; }
 
 .tit7 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.2;
@@ -7502,7 +7501,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 3px; }
 
 .tit8 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 50px;
   line-height: 1.2;
@@ -7511,7 +7510,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 11px; }
 
 .tit9 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
@@ -7520,33 +7519,35 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 3px; }
 
 .tit10 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 35px;
   line-height: 1.2;
   color: #222222;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 3px; }
 
 /*[ Text ]
 -----------------------------------------------------------
 */
 .txt0 {
-  font-family: Old-Emma;
-  font-weight: 500;
-  font-size: 50px;
+  font-family: Inkburrow;
+  font-weight: 400;
+  font-size: 75px;
   line-height: 1.1;
   color: #fff; }
 
 .txt1 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 50px;
   line-height: 1.1;
-  color: #222; }
+  color: #222;
+  text-transform: uppercase; }
 
 .txt2 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 90px;
   line-height: 1.1;
@@ -7555,7 +7556,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 10px; }
 
 .txt3 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.1;
@@ -7563,7 +7564,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   text-transform: uppercase; }
 
 .txt4 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 20px;
   color: #222222;
@@ -7571,7 +7572,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt5 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 24px;
   color: #222222;
@@ -7579,7 +7580,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 3px; }
 
 .txt6 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: white;
@@ -7587,7 +7588,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt7 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 50px;
   color: #43A906;
@@ -7596,7 +7597,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 3px; }
 
 .txt8 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 12px;
   color: #999999;
@@ -7604,19 +7605,19 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt9 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 15px;
   color: #555555; }
 
 .txt10 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 14px;
   color: #333; }
 
 .txt11 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.1;
@@ -7625,14 +7626,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt12 {
-  font-family: Old-Emma;
-  font-weight: 400;
-  font-size: 25px;
-  color: #ffffff;
-  line-height: 1.7; }
+  font-family: Inkburrow;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.7;
+  letter-spacing: 3px; }
 
 .txt13 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 500;
   font-size: 18px;
   color: white;
@@ -7640,9 +7643,9 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 2px; }
 
 .txt14 {
-  font-family: Old-Emma;
-  font-weight: 400;
-  font-size: 35px;
+  font-family: Inkburrow;
+  font-weight: 700;
+  font-size: 38px;
   color: #222;
   line-height: 1.7; }
 
@@ -7654,7 +7657,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   line-height: 1.7; }
 
 .txt16 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: #555555; }
@@ -7672,7 +7675,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   color: #cccccc; }
 
 .txt19 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 14px;
   color: #222222;
@@ -7680,7 +7683,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   text-transform: uppercase; }
 
 .txt20 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 500;
   font-size: 20px;
   color: #222222;
@@ -7688,16 +7691,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 3px; }
 
 .txt21 {
-  font-family: Old-Emma;
+  font-family: Inkfree;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 24px;
   color: #222222;
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 .txt22 {
-  font-family: Old-Emma;
+  font-family: Inkfree;
   font-weight: 700;
   font-size: 22px;
   color: #333333;
@@ -7705,29 +7708,29 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   text-transform: uppercase; }
 
 .txt23 {
-  font-family: Old-Emma;
+  font-family: Inkfree;
   font-weight: 700;
-  font-size: 15px;
-  color: #222222;
+  font-size: 17px;
+  color: #222;
   line-height: 1.7;
-  letter-spacing: 1.3px; }
+  letter-spacing: 1.2px; }
 
 .txt24 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
   color: #43A906; }
 
 .txt25 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
   color: #222222; }
 
 .txt26 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 500;
   font-size: 23px;
   color: #fff;
@@ -7735,7 +7738,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 2px; }
 
 .txt27 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: #222222;
@@ -7744,7 +7747,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt28 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 500;
   font-size: 12px;
   color: #222222;
@@ -7754,7 +7757,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   word-spacing: 2px; }
 
 .txt29 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: #999999;
@@ -7763,7 +7766,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt30 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 39px;
   color: white;
@@ -7772,20 +7775,20 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 1px; }
 
 .txt31 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: white; }
 
 .txt32 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: #808080;
   line-height: 1.5; }
 
 .txt33 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 500;
   font-size: 22px;
   color: #222222;
@@ -7793,7 +7796,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 3px; }
 
 .txt34 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.4;
@@ -7801,7 +7804,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   letter-spacing: 2px; }
 
 .txt35 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 12px;
   color: #333;
@@ -7809,26 +7812,27 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   line-height: 1.8; }
 
 .txt36 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 400;
   font-size: 25px;
   color: #fff;
   line-height: 1.8; }
 
 .txt37 {
-  font-family: Old-Emma;
+  font-family: Inkburrow;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 28px;
   color: #222;
   text-transform: uppercase;
   letter-spacing: 3px; }
 
 .txt38 {
-  font-family: Old-Emma;
-  font-weight: 400;
-  font-size: 20px;
+  font-family: Inkburrow;
+  font-weight: 700;
+  font-size: 25px;
   color: #222;
-  line-height: 1.7; }
+  line-height: 1.7;
+  letter-spacing: 1.5px; }
 
 /*[ Color ]
 -----------------------------------------------------------

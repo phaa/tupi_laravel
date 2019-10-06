@@ -1,33 +1,18 @@
-$red: #ec1d25;
-$red2: #d41b22;
+@import 'mixins';
+
 $success: #43A906;
 $gray6: #666666;
 $gray3: #333;
 $white: #fff;
-$brown: #7B4A12;
-
-$another-red: #cf2227;
-
-//old brown: 563715
 
 @font-face {
-  font-family: Futura-Light-Regular;
-  src: url('../fonts/Futura-Light/Futura-Light-Regular.ttf');
+  font-family: Inkfree;
+  src: url('../fonts/inkfree/Inkfree.ttf');
 }
 
 @font-face {
-  font-family: Futura-Light-Bold;
-  src: url('../fonts/Futura-Light/Futura-Light-Bold.ttf');
-}
-
-@font-face {
-  font-family: Old-Emma;
-  src: url('../fonts/old-emma/Old-Emma.ttf');
-}
-
-@font-face {
-  font-family: Futura-Light;
-  src: url('../fonts/futura-light-bt.ttf');
+  font-family: Inkburrow;
+  src: url('../fonts/inkburrow/inkburrow.ttf');
 }
 
 /*[ RESTYLE TAG ]
@@ -42,7 +27,7 @@ $another-red: #cf2227;
 
 body, html {
   overflow-x: hidden;
-  font-family: Futura-Light, sans-serif;
+  font-family: Inkfree, sans-serif;
   font-weight: 400;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -56,15 +41,11 @@ body, html {
 {
   overflow: hidden;
 }
- 
-section {
-  background-image: url(../images/textures/sackcloth-texture.jpg);
-}
 
 /* ------------------------------------ */
 
 a {
-  font-family: Futura-Light;
+  font-family: Inkfree;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
@@ -90,12 +71,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: Futura-Light;
-  font-weight: 400;
+  font-family: Inkfree;
+  font-weight: 700;
   text-align: justify;
   font-size: 19px;
   line-height: 1.5;
-  color: $gray3;
+  color: #222;
   margin: 0px;
 }
 
@@ -166,6 +147,10 @@ button {
   }
 }
 
+section {
+  background-image: url(../images/textures/sackcloth-texture.jpg);
+}
+
 iframe {
   border: none !important;
 }
@@ -230,9 +215,10 @@ iframe {
 }
 
 .symbol-btn-back-to-top {
-  font-size: 30px;
+  font-size: 65px;
   color: white;
   line-height: 1em;
+  font-family: Inkburrow;
 }
 
 @keyframes bounce {
@@ -261,105 +247,131 @@ iframe {
     right: 15px;
   }
   .symbol-btn-back-to-top {
-    font-size: 22px;
+    font-size: 55px;
   }
 }
 
-/*[ Calendar ]
+/*[ Slick ]
 ///////////////////////////////////////////////////////////
 */
 
-td.active {
-  background-color: $success !important;
-}
-
-input[type="date" i] {
-  padding: 14px;
-}
-
-.table-condensed {
-  td, th {
-    font-size: 14px;
-    font-family: Futura-Light;
-    font-weight: 400;
-  }
-}
-
-.daterangepicker {
-  width: 339px;
-  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
-  border: none;
-  margin-top: 10px;
-  .calendar {
-    max-width: inherit;
-  }
-  thead tr th {
-    padding: 10px 0; 
-  }
-  .table-condensed th select {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 15px;
-    padding: 5px;
-  }
-  td {
-    width: 60px;
-    height: 35px;
-  }
-}
-
-/*[ Sections ]
-///////////////////////////////////////////////////////////
+/*[ Slick1 ]
+-----------------------------------------------------------
 */
 
-@mixin for-size($size) {
-  @if $size==phone-only {
-    /* 
-      ##Device = Most of the Smartphones Mobiles (Portrait)
-      ##Screen = B/w 320px to 479px
-    */
-    @media (min-width: 320px) and (max-width: 480px) {
-      @content;
-    }
-  }
+.wrap-slick1, .wrap-slick2, .wrap-slick3 {
+  position: relative;
+}
 
-  @else if $size==tablet-portrait-up {
-    /* 
-      ##Device = Tablets, Ipads (portrait)
-      ##Screen = B/w 768px to 1024px
-    */
-    @media (min-width: 768px) and (max-width: 1024px) {
-      @content;
-    }
-  }
+.item-slick1, .item-slick2, .item-slick3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
-  @else if $size==tablet-landscape-up {
-    /* 
-      ##Device = Tablets, Ipads (landscape)
-      ##Screen = B/w 768px to 1024px
-    */
-    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-      @content;
-    }
-  }
+.item-slick1 {
+  height: 100vh;
+}
 
-  @else if $size==desktop-up {
-    /* 
-      ##Device = Laptops, Desktops
-      ##Screen = B/w 1025px to 1280px
-    */
-    @media (min-width: 1025px) and (max-width: 1280px) {
-      @content;
-    }
-  }
+.arrow-slick1, .arrow-slick2, .arrow-slick3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  background-color: black;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  z-index: 200;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
 
-  @else if $size==big-desktop-up {
-    /* 
-      ##Device = Desktops
-      ##Screen = 1281px to higher resolution desktops
-    */
-    @media (min-width: 1281px) {
-      @content;
+.wrap-slick1:hover .arrow-slick1, .wrap-slick2:hover .arrow-slick2, .wrap-slick3:hover .arrow-slick3 {
+  opacity: 0.75;
+}
+
+.arrow-slick1:hover, .arrow-slick2:hover, .arrow-slick3:hover {
+  background-color: $success;
+}
+
+.next-slick1, .next-slick2, .next-slick3 {
+  right: 50px;
+  left: auto;
+}
+
+.prev-slick1, .prev-slick2, .prev-slick3 {
+  left: 50px;
+  right: auto;
+}
+
+@media (max-width: 576px) {
+  .next-slick1 {
+    right: 15px;
+  }
+  .prev-slick1 {
+    left: 15px;
+  }
+}
+
+/* -----------Slick-Dots-------------- */
+
+.wrap-slick1-dots {
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  left: 0;
+  bottom: 0;
+}
+
+.slick1-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  li {
+    padding-left: 3px;
+    padding-right: 3px;
+    button {
+      display: block;
+      color: transparent;
+      background-color: #fff;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+      &:hover {
+        border: 3px solid $success;
+        background-color: $success;
+      }
+    }
+    &.slick-active button {
+      border: 3px solid $success;
+      background-color: $success;
     }
   }
 }
@@ -430,6 +442,10 @@ input[type="date" i] {
     }
   }
 }
+
+/*[ Sections ]
+///////////////////////////////////////////////////////////
+*/
 
 .header-intro {
   background-attachment: fixed;
@@ -591,12 +607,11 @@ input[type="date" i] {
     transition: all 0.4s ease;
     &.active_link, &:hover {
         border-bottom: 3px solid $success;
-        //box-shadow: 0 2px 0 0 $success;
     }
     > a {
-      font-family: Old-Emma;
+      font-family: Inkburrow;
       font-weight: 600;
-      font-size: 18px;
+      font-size: 22px;
       text-transform: uppercase;
       color: white;
       padding: 15px;
@@ -660,14 +675,14 @@ input[type="date" i] {
     -o-transition: all 0.3s;
     -moz-transition: all 0.3s;
     padding: 10px;
-    font-family: Futura-Light;
+    font-family: Inkfree;
     font-weight: 400;
     font-size: 14px;
     color: #808080;
   }
   a {
     padding: 10px;
-    font-family: Futura-Light;
+    font-family: Inkfree;
     font-weight: 400;
     font-size: 14px;
     color: #808080;
@@ -678,7 +693,7 @@ input[type="date" i] {
   }
 }
 
-/*[ Social ]
+/*[ Social header's links ]
 -----------------------------------------------------------
 */
 
@@ -811,7 +826,7 @@ input[type="date" i] {
     background-repeat: no-repeat;
     background-position: center 33px;
     transition: all .2s ease-out;
-    z-index: 99;
+    z-index: 1250;
     position: relative;
     text-decoration: none;
 }
@@ -829,131 +844,6 @@ input[type="date" i] {
   .gallery-sidebar {
     padding-left: 20px;
     padding-right: 20px;
-  }
-}
-
-/*[ Slide1 ]
-///////////////////////////////////////////////////////////
-*/
-
-/*[ Slick1 ]
------------------------------------------------------------
-*/
-
-.wrap-slick1, .wrap-slick2, .wrap-slick3 {
-  position: relative;
-}
-
-.item-slick1, .item-slick2, .item-slick3 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.item-slick1 {
-  height: 100vh;
-}
-
-.arrow-slick1, .arrow-slick2, .arrow-slick3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  background-color: black;
-  opacity: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  border-radius: 50%;
-  z-index: 200;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.wrap-slick1:hover .arrow-slick1, .wrap-slick2:hover .arrow-slick2, .wrap-slick3:hover .arrow-slick3 {
-  opacity: 0.75;
-}
-
-.arrow-slick1:hover, .arrow-slick2:hover, .arrow-slick3:hover {
-  background-color: $success;
-}
-
-.next-slick1, .next-slick2, .next-slick3 {
-  right: 50px;
-  left: auto;
-}
-
-.prev-slick1, .prev-slick2, .prev-slick3 {
-  left: 50px;
-  right: auto;
-}
-
-@media (max-width: 576px) {
-  .next-slick1 {
-    right: 15px;
-  }
-  .prev-slick1 {
-    left: 15px;
-  }
-}
-
-/* ------------------------------------ */
-
-.wrap-slick1-dots {
-  position: absolute;
-  width: 100%;
-  height: 65px;
-  left: 0;
-  bottom: 0;
-}
-
-.slick1-dots {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  li {
-    padding-left: 3px;
-    padding-right: 3px;
-    button {
-      display: block;
-      color: transparent;
-      background-color: #fff;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      border: 2px solid transparent;
-      background-clip: padding-box;
-      -webkit-transition: all 0.4s;
-      -o-transition: all 0.4s;
-      -moz-transition: all 0.4s;
-      transition: all 0.4s;
-      &:hover {
-        border: 3px solid $success;
-        background-color: $success;
-      }
-    }
-    &.slick-active button {
-      border: 3px solid $success;
-      background-color: $success;
-    }
   }
 }
 
@@ -1360,7 +1250,7 @@ body {
   bottom: 11px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3px 15px;
-  font-family: Futura-Light;
+  font-family: Inkfree;
   font-weight: 400;
   font-size: 12px;
   color: white;
@@ -1550,7 +1440,7 @@ body {
 */
 
 .item-pagination {
-  font-family: Futura-Light;
+  font-family: Inkfree;
   background-color: #222;
   font-weight: 400;
   font-size: 15px;

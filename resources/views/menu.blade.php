@@ -1,5 +1,10 @@
 @extends('templates.layout')
 
+@section('extra_meta')
+	<meta name="description" content="Confira os nossos preparos."/>
+	<link rel="canonical" href="http://restaurantetupi.com.br/cardápio" />
+@endsection
+
 @section('title')
 Cardápio
 @endsection
@@ -13,16 +18,15 @@ Cardápio
 		</h2>
 	</section>
 
- 
 	<!-- Main menu -->
 	<section class="section-mainmenu p-t-110 p-b-10 bg1-pattern">
 		<div class="container">
 			<div class="row justify-content-md-center m-b-50">
-            <div class="col text-center">
-                <span class="tit2 p-l-15 p-r-15">Veja nossos pratos</span>
-                <h1 class="txt1 contact-footer">Os mais pedidos</h1>
-            </div>
-      </div>
+				<div class="col text-center">
+					<span class="tit2 p-l-15 p-r-15">Nossos pratos</span>
+					<h1 class="txt1 contact-footer">Mais pedidos</h1>
+				</div>
+      		</div>
 			<div class="row p-b-70">
 				<div class="col-md-8 col-lg-6 m-l-r-auto">
 					<!-- Block3 -->
@@ -146,7 +150,7 @@ Cardápio
 	</section>
 
 
-	<!-- Lunch -->
+	<!-- Complete Tupi Menu -->
 	<section class="section-lunch bg1-pattern">
 		<div class="header-lunch parallax0 parallax100" style="background-image: url({{ asset('images/menu/cardapio.jpg') }});">
 			<div class="t-center p-t-170 p-b-165">
@@ -165,6 +169,97 @@ Cardápio
       </div>
 			<div class="row">
 				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							Bebidas
+						</h3>
+
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									Vivamus pretium
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$29.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+
+							</span>
+							<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									Vivamus pretium
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$29.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+
+							</span>
+						</div>
+					</div>
+
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							Sucos
+						</h3>
+
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									Vivamus pretium
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$29.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+
+							</span>
+						</div>
+					</div>
+
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							Bebidas Alcólicas
+						</h3>
+
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									Vivamus pretium
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$29.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+
+							</span>
+						</div>
+					</div>
+
 					<div class="wrap-item-mainmenu p-b-22">
 						<h3 class="tit-mainmenu tit10 p-b-25">
 							Petiscos
@@ -193,33 +288,7 @@ Cardápio
 
 					<div class="wrap-item-mainmenu p-b-22">
 						<h3 class="tit-mainmenu tit10 p-b-25">
-							Bebidas
-						</h3>
-
-						<!-- Item mainmenu -->
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									Vivamus pretium
-								</a>
-
-								<div class="line-item-mainmenu bg3-pattern"></div>
-
-								<div class="price-item-mainmenu txt22">
-									$29.79
-								</div>
-							</div>
-
-							<span class="info-item-mainmenu txt23">
-
-							</span>
-						</div>
-
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Carnes
+							Carnes e Frango
 						</h3>
 
 						<!-- Item mainmenu -->
@@ -247,7 +316,7 @@ Cardápio
 				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
 					<div class="wrap-item-mainmenu p-b-22">
 						<h3 class="tit-mainmenu tit10 p-b-25">
-							Carnes
+							Peixes
 						</h3>
 
 						<!-- Item mainmenu -->
@@ -273,7 +342,85 @@ Cardápio
 
 					<div class="wrap-item-mainmenu p-b-22">
 						<h3 class="tit-mainmenu tit10 p-b-25">
-							Peixes
+							Camarões
+						</h3>
+
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									tempus aliquet
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$9.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+								Proin lacinia nisl ut ultricies posuere nulla
+							</span>
+						</div>
+
+					</div>
+
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							Guarnições
+						</h3>
+
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									tempus aliquet
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$9.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+								Proin lacinia nisl ut ultricies posuere nulla
+							</span>
+						</div>
+
+					</div>
+
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							Pratos individuais
+						</h3>
+
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									tempus aliquet
+								</a>
+
+								<div class="line-item-mainmenu bg3-pattern"></div>
+
+								<div class="price-item-mainmenu txt22">
+									$9.79
+								</div>
+							</div>
+
+							<span class="info-item-mainmenu txt23">
+								Proin lacinia nisl ut ultricies posuere nulla
+							</span>
+						</div>
+
+					</div>
+
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							Cafés e sobremesas
 						</h3>
 
 						<!-- Item mainmenu -->
