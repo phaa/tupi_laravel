@@ -7574,7 +7574,7 @@
 .txt5 {
   font-family: Inkburrow;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 3px; }
@@ -7691,26 +7691,35 @@
   letter-spacing: 3px; }
 
 .txt21 {
-  font-family: Inkfree;
+  font-family: Inkburrow;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
+  color: #222222;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.txt21b {
+  font-family: Inkburrow;
+  font-weight: 700;
+  font-size: 25px;
   color: #222222;
   line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
 .txt22 {
-  font-family: Inkfree;
+  font-family: Inkburrow;
   font-weight: 700;
-  font-size: 22px;
-  color: #333333;
+  font-size: 27px;
+  color: #222222;
   line-height: 1.2;
   text-transform: uppercase; }
 
 .txt23 {
   font-family: Inkfree;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
   color: #222;
   line-height: 1.7;
   letter-spacing: 1.2px; }

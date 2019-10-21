@@ -1,4 +1,3 @@
-<!-- Header -->
 <header id="myHeader">
     <!-- Header desktop -->
     <div class="wrap-menu-header gradient1 trans-0-4">

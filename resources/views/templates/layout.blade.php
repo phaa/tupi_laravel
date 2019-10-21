@@ -42,7 +42,7 @@
 		<!-- Back to top -->
 		<div class="btn-back-to-top" id="myBtn" data-toggle="tooltip" title="Voltar ao topo">
 		    <span class="symbol-btn-back-to-top">
-		        ↑
+		        <i class="fas fa-angle-double-up"></i>
 		    </span>
 		</div>
  

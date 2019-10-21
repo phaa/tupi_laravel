@@ -175,7 +175,7 @@ Restaurante Tupi
             <div class="col-md-12 text-right m-t-25">
                 <a href="{{ route('about') }}" class="txt5" style="font-size: 28px;">
                     Ler Mais
-                    <i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
+                    <i class="fas fa-long-arrow-alt-right m-l-10" aria-hidden="true"></i>
                 </a>
             </div>
         </div>

@@ -38,7 +38,7 @@ Cardápio
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
-							<span class="txt21 m-b-3">
+							<span class="txt21b m-b-3">
 								Camarão na Oca
 							</span>
 
@@ -57,7 +57,7 @@ Cardápio
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
-							<a href="#" class="txt21 m-b-3">
+							<a href="#" class="txt21b m-b-3">
 								Camarão Seridoense
 							</a>
 
@@ -76,7 +76,7 @@ Cardápio
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
-							<a href="#" class="txt21 m-b-3">
+							<a href="#" class="txt21b m-b-3">
 								Carne de Sol Pituba
 							</a>
 
@@ -97,7 +97,7 @@ Cardápio
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
-							<a href="#" class="txt21 m-b-3">
+							<a href="#" class="txt21b m-b-3">
 								Croquete de Charque
 							</a>
 
@@ -116,7 +116,7 @@ Cardápio
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
-							<a href="#" class="txt21 m-b-3">
+							<a href="#" class="txt21b m-b-3">
 								Moqueca de Peixe e Camarão
 							</a>
 
@@ -135,7 +135,7 @@ Cardápio
 						</div>
 
 						<div class="text-blo3 size21 flex-col-l-m">
-							<a href="#" class="txt21 m-b-3">
+							<a href="#" class="txt21b m-b-3">
 								Ratas e Ratinhas
 							</a>
 
@@ -166,284 +166,140 @@ Cardápio
                 <span class="tit2 p-l-15 p-r-15">Dê mais uma olhada</span>
                 <h1 class="txt1 contact-footer">Todos os pratos</h1>
             </div>
-      </div>
+      	</div>
 			<div class="row">
 				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
 					<div class="wrap-item-mainmenu p-b-22">
 						<h3 class="tit-mainmenu tit10 p-b-25">
 							Bebidas
 						</h3>
-
-						<!-- Item mainmenu -->
 						<div class="item-mainmenu m-b-36">
 							<div class="flex-w flex-b m-b-3">
 								<a href="#" class="name-item-mainmenu txt21">
-									Vivamus pretium
+								Camarão Seridoense
 								</a>
-
 								<div class="line-item-mainmenu bg3-pattern"></div>
-
 								<div class="price-item-mainmenu txt22">
-									$29.79
+									RS 29.79
 								</div>
 							</div>
-
 							<span class="info-item-mainmenu txt23">
-
+							Sed fermentum eros vitae eros
 							</span>
-							<div class="item-mainmenu m-b-36">
+						</div>
+						<div class="item-mainmenu m-b-36">
 							<div class="flex-w flex-b m-b-3">
 								<a href="#" class="name-item-mainmenu txt21">
-									Vivamus pretium
+								Peixe Potiguar
 								</a>
-
 								<div class="line-item-mainmenu bg3-pattern"></div>
-
 								<div class="price-item-mainmenu txt22">
-									$29.79
+									RS 19.35
 								</div>
 							</div>
-
 							<span class="info-item-mainmenu txt23">
-
+							Feugiat maximus neque pharetra
+							</span>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+								Sed feugiat
+								</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+								<div class="price-item-mainmenu txt22">
+									$12.19
+								</div>
+							</div>
+							<span class="info-item-mainmenu txt23">
+							Proin lacinia nisl ut ultricies posuere nulla
+							</span>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+								Consectetur
+								</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+								<div class="price-item-mainmenu txt22">
+									$21.89
+								</div>
+							</div>
+							<span class="info-item-mainmenu txt23">
+							Etiam cursus facilisis tortor
 							</span>
 						</div>
 					</div>
 
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Sucos
-						</h3>
-
-						<!-- Item mainmenu -->
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									Vivamus pretium
-								</a>
-
-								<div class="line-item-mainmenu bg3-pattern"></div>
-
-								<div class="price-item-mainmenu txt22">
-									$29.79
-								</div>
-							</div>
-
-							<span class="info-item-mainmenu txt23">
-
-							</span>
-						</div>
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Bebidas Alcólicas
-						</h3>
-
-						<!-- Item mainmenu -->
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									Vivamus pretium
-								</a>
-
-								<div class="line-item-mainmenu bg3-pattern"></div>
-
-								<div class="price-item-mainmenu txt22">
-									$29.79
-								</div>
-							</div>
-
-							<span class="info-item-mainmenu txt23">
-
-							</span>
-						</div>
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Petiscos
-						</h3>
-
-						<!-- Item mainmenu -->
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									Pine nut sbrisalona
-								</a>
-
-								<div class="line-item-mainmenu bg3-pattern"></div>
-
-								<div class="price-item-mainmenu txt22">
-									$29.79
-								</div>
-							</div>
-
-							<span class="info-item-mainmenu txt23">
-								Sed fermentum eros vitae eros
-							</span>
-						</div>
-
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Carnes e Frango
-						</h3>
-
-						<!-- Item mainmenu -->
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									Carne de sol na brasa
-								</a>
-
-								<div class="line-item-mainmenu bg3-pattern"></div>
-
-								<div class="price-item-mainmenu txt22">
-									R$40,00
-								</div>
-							</div>
-
-							<span class="info-item-mainmenu txt23">
-								Carne de sol feita na brasa
-							</span>
-						</div>
-
-					</div>
 				</div>
 
-				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+				<!-- Second row -->
+
+				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
 					<div class="wrap-item-mainmenu p-b-22">
 						<h3 class="tit-mainmenu tit10 p-b-25">
-							Peixes
+							Drinks
 						</h3>
-
-						<!-- Item mainmenu -->
 						<div class="item-mainmenu m-b-36">
 							<div class="flex-w flex-b m-b-3">
 								<a href="#" class="name-item-mainmenu txt21">
-									Duis sed aliquet
+								Pine nut sbrisalona
 								</a>
-
 								<div class="line-item-mainmenu bg3-pattern"></div>
-
 								<div class="price-item-mainmenu txt22">
-									$31.18
+									$29.79
 								</div>
 							</div>
-
 							<span class="info-item-mainmenu txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
+							Sed fermentum eros vitae eros
 							</span>
 						</div>
-
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Camarões
-						</h3>
-
-						<!-- Item mainmenu -->
 						<div class="item-mainmenu m-b-36">
 							<div class="flex-w flex-b m-b-3">
 								<a href="#" class="name-item-mainmenu txt21">
-									tempus aliquet
+								Aenean eu
 								</a>
-
 								<div class="line-item-mainmenu bg3-pattern"></div>
-
 								<div class="price-item-mainmenu txt22">
-									$9.79
+									$19.35
 								</div>
 							</div>
-
 							<span class="info-item-mainmenu txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
+							Feugiat maximus neque pharetra
 							</span>
 						</div>
-
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Guarnições
-						</h3>
-
-						<!-- Item mainmenu -->
 						<div class="item-mainmenu m-b-36">
 							<div class="flex-w flex-b m-b-3">
 								<a href="#" class="name-item-mainmenu txt21">
-									tempus aliquet
+								Sed feugiat
 								</a>
-
 								<div class="line-item-mainmenu bg3-pattern"></div>
-
 								<div class="price-item-mainmenu txt22">
-									$9.79
+									$12.19
 								</div>
 							</div>
-
 							<span class="info-item-mainmenu txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
+							Proin lacinia nisl ut ultricies posuere nulla
 							</span>
 						</div>
-
-					</div>
-
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Pratos individuais
-						</h3>
-
-						<!-- Item mainmenu -->
 						<div class="item-mainmenu m-b-36">
 							<div class="flex-w flex-b m-b-3">
 								<a href="#" class="name-item-mainmenu txt21">
-									tempus aliquet
+								Consectetur
 								</a>
-
 								<div class="line-item-mainmenu bg3-pattern"></div>
-
 								<div class="price-item-mainmenu txt22">
-									$9.79
+									$21.89
 								</div>
 							</div>
-
 							<span class="info-item-mainmenu txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
+							Etiam cursus facilisis tortor
 							</span>
 						</div>
-
 					</div>
 
-					<div class="wrap-item-mainmenu p-b-22">
-						<h3 class="tit-mainmenu tit10 p-b-25">
-							Cafés e sobremesas
-						</h3>
-
-						<!-- Item mainmenu -->
-						<div class="item-mainmenu m-b-36">
-							<div class="flex-w flex-b m-b-3">
-								<a href="#" class="name-item-mainmenu txt21">
-									tempus aliquet
-								</a>
-
-								<div class="line-item-mainmenu bg3-pattern"></div>
-
-								<div class="price-item-mainmenu txt22">
-									$9.79
-								</div>
-							</div>
-
-							<span class="info-item-mainmenu txt23">
-								Proin lacinia nisl ut ultricies posuere nulla
-							</span>
-						</div>
-
-					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>

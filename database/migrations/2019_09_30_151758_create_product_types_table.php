@@ -36,9 +36,9 @@ class CreateProductTypesTable extends Migration
 
         for($i = 0; $i < sizeof($types_list); $i++)
         {
-            $monthName = $months[$i];
-            $monthsTable->insert([
-                'description' => $monthName,
+            $productType = $types_list[$i];
+            $typesTable->insert([
+                'description' => $productType,
                 'created_at' =>  \Carbon\Carbon::now(), # \Datetime()
                 'updated_at' => \Carbon\Carbon::now(),  # \Datetime()
             ]);

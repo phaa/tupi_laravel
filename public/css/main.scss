@@ -215,10 +215,11 @@ iframe {
 }
 
 .symbol-btn-back-to-top {
-  font-size: 65px;
-  color: white;
-  line-height: 1em;
-  font-family: Inkburrow;
+  font-size: 35px;
+    color: white;
+    line-height: 1em;
+    margin-top: 5px;
+    font-family: Inkburrow;
 }
 
 @keyframes bounce {
@@ -247,7 +248,7 @@ iframe {
     right: 15px;
   }
   .symbol-btn-back-to-top {
-    font-size: 55px;
+    font-size: 28px;
   }
 }
 
@@ -741,7 +742,7 @@ iframe {
   position: fixed;
   z-index: 1000;
   width: 390px;
-  height: 100%;
+  height: 100vh;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
@@ -1301,11 +1302,11 @@ body {
 
 @media (max-width: 576px) {
   .bg-title-page {
-    height: 100%;
+    height: 100vh;
     background-position: bottom right;
   }
   .bg-title-page .tit6 {
-    font-size: 42px;
+    font-size: 65px;
   }
 }
 
@@ -1319,6 +1320,11 @@ body {
   margin-bottom: 5px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.bg3-pattern {
+  background-image: url('../images/textures/pattern4.png');
+  background-repeat: repeat;
 }
 
 @media (max-width: 576px) {

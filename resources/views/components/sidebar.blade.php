@@ -1,4 +1,3 @@
-<!-- Sidebar -->
 <aside class="sidebar trans-0-3">
     <!-- Button Hide sidebar -->
     <button id="sidebarHamburger" style="" class="hamburger hamburger--collapse trans-0-4" type="button">
