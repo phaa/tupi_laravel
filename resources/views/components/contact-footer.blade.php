@@ -62,7 +62,7 @@
 
         <p class="txt14 t-center m-t-50">
             <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
-            Terça a Domingo 11:00 às 16:00
+            Terça a Domingo das 11:00 às 16:00
         </p>
     </div>
 </section>

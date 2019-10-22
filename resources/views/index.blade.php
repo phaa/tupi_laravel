@@ -22,7 +22,7 @@ Restaurante Tupi
                         Bem Vindo ao
                     </span>
 
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="fadeInUp">
+                    <h2 style="letter-spacing: 0px; font-size: 49px;" class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="fadeInUp">
                         Restaurante Tupi
                     </h2>
                 </div>
@@ -60,7 +60,7 @@ Restaurante Tupi
 </section>
 
 <!-- Welcome -->
-<section class="section-welcome bg1-pattern p-t-120 p-b-70">
+<section class="section-welcome bg1-pattern p-t-70 p-b-70">
 	<div class="container">
 		<!-- A little about -->
 		<div class="row">
@@ -76,19 +76,19 @@ Restaurante Tupi
 
 					<p class="m-b-22 size3 p-t-25 m-l-r-auto presentation-footer">
 						&emsp;&emsp;O Tupi foi pensado e criado com o intuito de oferecer aos clientes refeições de boa qualidade aliadas
-						a um ambiente tranquilo e agradável, porém sem abrir mão do preço acessível.
+						a um ambiente tranquilo e agradável sem abrir mão, porém, do preço acessível.
                         <br>
 						&emsp;&emsp;
-                        Oferecemos um cardápio regional com pratos desde a carne de sol na brasa, galinha e paçoca até
-						peixes e camarões, preparados em moquecas ou na brasa, todos servidos em pratos para duas ou quatro pessoas, além dos individuais.
+                        Oferecemos um cardápio regional que vai desde a carne de sol na brasa, galinha e paçoca até
+						peixes e camarões. Todos servidos em pratos para duas ou quatro pessoas, além dos individuais.
 						<br>
 						&emsp;&emsp;
                         A proposta da casa é comer bem e relaxar. O espaço proporciona às
 						famílias momentos de paz e bem-estar em meio à natureza enquanto desfrutam de nossos preparos.
 					</p>
 					<a href="{{ route('about') }}" class="txt5">
-						Leia Mais
-						<i class="fas fa-arrow-right m-l-10" aria-hidden="true"></i>
+						Ler Mais
+						<i class="fas fa-long-arrow-alt-right m-l-10" aria-hidden="true"></i>
 					</a>
 				</div>
 			</div>
@@ -106,7 +106,7 @@ Restaurante Tupi
         <div class="row">
 			<div class="wrap-text-welcome container t-center m-t-30">
 				<span class="tit2 p-l-15 p-r-15">
-					Conheça um pouco
+					Conheça
 				</span>
 				<h3 class="tit3 m-t-5 contact-footer">
 					Nossas instalações
@@ -165,7 +165,7 @@ Restaurante Tupi
                         </h4>
 
                         <p class="m-b-20">
-                            Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento de nossos clientes.
+                            Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento dos clientes.
                         </p>
                     </div>
                 </div>
@@ -192,13 +192,13 @@ Restaurante Tupi
 </section>
 
 <!-- Maps -->
-<section class="p-t-105 p-b-105">
+<section class="p-t-60 p-b-105">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
-			Nos veja no mapa
+			Encontre a gente!
 		</span>
         <h3 class="tit3 m-b-25 m-t-5 contact-footer">
-            Encontre a gente!
+            Veja o mapa
         </h3>
         <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
             <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
@@ -219,106 +219,20 @@ Restaurante Tupi
 </section>
 
 <!-- Review -->
-<section class="section-review p-t-115">
+<section class="section-review p-t-70">
     <div class="title-review t-center m-b-2">
 		<span class="tit2 p-l-15 p-r-15">
 			Veja o que o pessoal diz
 		</span>
 
 		<h3 class="tit8 t-center p-l-20 p-r-15 p-t-3 contact-footer container">
-			Nos avalie também!
+			Avalie também!
 		</h3>
 	</div>
 
-	<!-- - -->
-	<div class="wrap-slick3">
-		<div class="slick3">
-			<div class="item-slick3 item1-slick3">
-				<div class="wrap-content-slide3 p-b-50 p-t-50">
-					<div class="container">
-						<div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
-							<img src="images/avatar-01.jpg" alt="IGM-AVATAR">
-						</div>
-
-						<div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
-							<p class="t-center txt12 size15 m-l-r-auto">
-								“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
-							</p>
-
-							<div class="star-review fs-18 color-yellow flex-c-m m-t-12">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-							</div>
-
-							<div class="more-review txt4 t-center animated visible-false m-t-32" data-appear="fadeInUp">
-								Marie Simmons ˗ New York
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="item-slick3 item2-slick3">
-				<div class="wrap-content-slide3 p-b-50 p-t-50">
-					<div class="container">
-						<div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
-							<img src="images/avatar-04.jpg" alt="IGM-AVATAR">
-						</div>
-
-						<div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
-							<p class="t-center txt12 size15 m-l-r-auto">
-								“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
-							</p>
-
-							<div class="star-review fs-18 color-yellow flex-c-m m-t-12">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-							</div>
-
-							<div class="more-review txt4 t-center animated visible-false m-t-32" data-appear="fadeInUp">
-								Marie Simmons ˗ New York
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="item-slick3 item3-slick3">
-				<div class="wrap-content-slide3 p-b-50 p-t-50">
-					<div class="container">
-						<div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
-							<img src="images/avatar-05.jpg" alt="IGM-AVATAR">
-						</div>
-
-						<div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
-							<p class="t-center txt12 size15 m-l-r-auto">
-								“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
-							</p>
-
-							<div class="star-review fs-18 color-yellow flex-c-m m-t-12">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-								<i class="fa fa-star p-l-1" aria-hidden="true"></i>
-							</div>
-
-							<div class="more-review txt4 t-center animated visible-false m-t-32" data-appear="fadeInUp">
-								Marie Simmons ˗ New York
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="wrap-slick3-dots m-t-30"></div>
-	</div>
+	<!-- Google Reviews -->
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+	<div class="elfsight-app-b836c5c8-bac0-4c36-9c38-7f572ecaa01b"></div>
 </section>
 
 <section>
@@ -333,7 +247,7 @@ Restaurante Tupi
 </section>
 
 <!-- Social -->
-<section class="p-t-115">
+<section class="p-t-70">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
 			Siga-nos 

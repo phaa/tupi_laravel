@@ -132,4 +132,9 @@
             $(this).addClass('is-actived');
         });
     });
+
+    lightbox.option({
+        'disableScrolling' : true
+    });
+
 })(jQuery);

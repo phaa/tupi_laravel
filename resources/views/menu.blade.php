@@ -19,7 +19,7 @@ Cardápio
 	</section>
 
 	<!-- Main menu -->
-	<section class="section-mainmenu p-t-110 p-b-10 bg1-pattern">
+	<section class="section-mainmenu p-t-60 p-b-10 bg1-pattern">
 		<div class="container">
 			<div class="row justify-content-md-center m-b-50">
 				<div class="col text-center">
@@ -152,7 +152,7 @@ Cardápio
 
 	<!-- Complete Tupi Menu -->
 	<section class="section-lunch bg1-pattern">
-		<div class="header-lunch parallax0 parallax100" style="background-image: url({{ asset('images/menu/cardapio.jpg') }});">
+		<div class="header-lunch parallax100" style="background-image: url({{ asset('images/menu/cardapio.jpg') }});">
 			<div class="t-center p-t-170 p-b-165">
 				<h2 class="tit4 t-center">
 					Cardápio completo
@@ -161,7 +161,7 @@ Cardápio
 		</div>
 
 		<div class="container">
-			<div class="row justify-content-md-center m-t-110 m-b-50">
+			<div class="row justify-content-md-center m-t-60 m-b-50">
             <div class="col text-center">
                 <span class="tit2 p-l-15 p-r-15">Dê mais uma olhada</span>
                 <h1 class="txt1 contact-footer">Todos os pratos</h1>
@@ -180,7 +180,7 @@ Cardápio
 								</a>
 								<div class="line-item-mainmenu bg3-pattern"></div>
 								<div class="price-item-mainmenu txt22">
-									RS 29.79
+									R$29,79
 								</div>
 							</div>
 							<span class="info-item-mainmenu txt23">
@@ -194,7 +194,7 @@ Cardápio
 								</a>
 								<div class="line-item-mainmenu bg3-pattern"></div>
 								<div class="price-item-mainmenu txt22">
-									RS 19.35
+									R$19,35
 								</div>
 							</div>
 							<span class="info-item-mainmenu txt23">
