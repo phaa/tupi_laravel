@@ -679,6 +679,11 @@ iframe {
     margin-top: 35px;
     margin-right: 14px; }
 
+  .sidebar .active_link a {
+    color: #43A906;
+  }
+
+
 @media (max-width: 576px) {
   .sidebar {
     width: 100%; }

@@ -755,6 +755,9 @@ iframe {
     margin-top: 35px;
     margin-right: 14px;
   }
+  .active_link {
+    border-bottom: 3px solid #43A906;
+  }
 }
 
 @media (max-width: 576px) {

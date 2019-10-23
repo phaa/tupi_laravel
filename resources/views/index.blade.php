@@ -210,7 +210,7 @@ Restaurante Tupi
 <section>
     <div class="header-intro meet-us parallax100 t-center p-t-135 p-b-158">
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
-			Venha conhecer o
+			Conheça o
 		</span>
 		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 			Vale da Gruta do Bode
