@@ -26,6 +26,9 @@ $white: #fff;
 }
 
 body, html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   overflow-x: hidden;
   font-family: Inkfree, sans-serif;
   font-weight: 400;
@@ -242,8 +245,8 @@ iframe {
 
 @media (max-width: 576px) {
   .btn-back-to-top {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     bottom: 15px;
     right: 15px;
   }
@@ -390,6 +393,10 @@ iframe {
       background-image: url('../images/480px/deck.jpg');
     }
 
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/deck.jpg');
+    }
+
     @include for-size(tablet-portrait-up) {
       background-image: url('../images/1024px/deck.jpg');
     }
@@ -410,6 +417,10 @@ iframe {
       background-image: url('../images/480px/ambiente.jpg');
     }
 
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/ambiente.jpg');
+    }
+
     @include for-size(tablet-portrait-up) {
       background-image: url('../images/1024px/ambiente.jpg');
     }
@@ -428,6 +439,10 @@ iframe {
 
     @include for-size(phone-only) {
       background-image: url('../images/480px/planta.jpg');
+    }
+
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/planta.jpg');
     }
 
     @include for-size(tablet-portrait-up) {
@@ -461,6 +476,10 @@ iframe {
       background-image: url('../images/480px/salao.jpg');
     }
 
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/salao.jpg');
+    }
+
     @include for-size(tablet-portrait-up) {
       background-image: url('../images/1024px/salao.jpg');
     }
@@ -481,6 +500,10 @@ iframe {
       background-image: url('../images/480px/vale.jpg');
     }
 
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/vale.jpg');
+    }
+
     @include for-size(tablet-portrait-up) {
       background-image: url('../images/1024px/vale.jpg');
     }
@@ -499,6 +522,10 @@ iframe {
 
     @include for-size(phone-only) {
       background-image: url('../images/480px/lago.jpg');
+    }
+
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/lago.jpg');
     }
 
     @include for-size(tablet-portrait-up) {
@@ -743,7 +770,7 @@ iframe {
   z-index: 1000;
   width: 390px;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   right: -100%;
@@ -755,8 +782,8 @@ iframe {
     margin-top: 35px;
     margin-right: 14px;
   }
-  .active_link {
-    border-bottom: 3px solid #43A906;
+  .active_link a {
+    color: #43A906;
   }
 }
 
@@ -854,6 +881,12 @@ iframe {
 /*[ Caption ]
 -----------------------------------------------------------
 */
+.wrap-content-slide1 {
+  .txt0 {
+    text-transform: uppercase;
+  }
+}
+
 @media (max-width: 768px) {
   .wrap-content-slide1 {
     .tit1 {
@@ -868,7 +901,7 @@ iframe {
 @media (max-width: 576px) {
   .wrap-content-slide1 {
     .tit1 {
-      font-size: 50px;
+      font-size: 43px;
     }
     .txt0 {
       font-size: 40px;

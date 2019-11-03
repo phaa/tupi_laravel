@@ -9844,7 +9844,6 @@ $brown: #644425;
   color: white;
   text-transform: uppercase;
   letter-spacing: 10px;
-  word-spacing: 6px;
 }
 
 .tit5 {
@@ -9909,6 +9908,17 @@ $brown: #644425;
   text-align: center;
   letter-spacing: 3px;
 }
+
+@media (max-width: 576px) {
+  .tit3 {
+    font-size: 43px; 
+  }
+
+  .tit4 {
+    font-size: 48px;
+  }
+}
+
 
 /*[ Text ]
 -----------------------------------------------------------

@@ -23,7 +23,7 @@ Cardápio
 		<div class="container">
 			<div class="row justify-content-md-center m-b-50">
 				<div class="col text-center">
-					<span class="tit2 p-l-15 p-r-15">Nossos pratos</span>
+					<span class="tit2">Nossos pratos</span>
 					<h1 class="txt1 contact-footer">Mais pedidos</h1>
 				</div>
       		</div>
@@ -150,20 +150,19 @@ Cardápio
 	</section>
 
 
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url({{ asset('images/menu/cardapio.jpg') }});">
+		<h2 class="tit6 t-center">
+			Cardápio completo
+		</h2>
+	</section>
+
 	<!-- Complete Tupi Menu -->
-	<section class="section-lunch bg1-pattern">
-		<div class="header-lunch parallax100" style="background-image: url({{ asset('images/menu/cardapio.jpg') }});">
-			<div class="t-center p-t-170 p-b-165">
-				<h2 class="tit4 t-center">
-					Cardápio completo
-				</h2>
-			</div>
-		</div>
+	<section class="section-lunch bg1-pattern p-t-60">
 
 		<div class="container">
-			<div class="row justify-content-md-center m-t-60 m-b-50">
+			<div class="row justify-content-md-center m-b-50">
             <div class="col text-center">
-                <span class="tit2 p-l-15 p-r-15">Dê mais uma olhada</span>
+                <span class="tit2 p-l-15 p-r-15">Veja agora</span>
                 <h1 class="txt1 contact-footer">Todos os pratos</h1>
             </div>
       	</div>

@@ -22,7 +22,7 @@ Restaurante Tupi
                         Bem Vindo ao
                     </span>
 
-                    <h2 style="letter-spacing: 0px; font-size: 49px;" class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="fadeInUp">
+                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
                         Restaurante Tupi
                     </h2>
                 </div>
@@ -31,10 +31,10 @@ Restaurante Tupi
             <div class="item-slick1 slide2 item2-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rollIn">
-                        Amplo espaço para a família
+                        Amplo espaço para famílias
                     </span>
 
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="lightSpeedIn">
+                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="lightSpeedIn">
                         Conforto
                     </h2>
                 </div>
@@ -44,10 +44,10 @@ Restaurante Tupi
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
 						Ambiente sossegado <br>
-						Uma Vista incrível
+						Vista incrível
                     </span>
 
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false m-t-37" data-appear="rotateInUpRight">
+                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="rotateInUpRight">
                         Natureza
                     </h2>
                 </div>
@@ -71,7 +71,7 @@ Restaurante Tupi
 					</span>
 
 					<h3 class="tit3 t-center m-t-5">
-						Quem somos
+						Bem Vindo
 					</h3>
 
 					<p class="m-b-22 size3 p-t-25 m-l-r-auto presentation-footer">
@@ -220,12 +220,12 @@ Restaurante Tupi
 
 <!-- Review -->
 <section class="section-review p-t-70">
-    <div class="title-review t-center m-b-2">
+    <div class="container title-review t-center m-b-2">
 		<span class="tit2 p-l-15 p-r-15">
 			Veja o que o pessoal diz
 		</span>
 
-		<h3 class="tit8 t-center p-l-20 p-r-15 p-t-3 contact-footer container">
+		<h3 class="tit8 t-center p-l-20 p-r-15 p-t-3 contact-footer">
 			Avalie também!
 		</h3>
 	</div>
@@ -241,7 +241,7 @@ Restaurante Tupi
 			O melhor
 		</span>
 		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Da região sul do RN
+			Região sul do RN
 		</h3>
 	</div>
 </section>
