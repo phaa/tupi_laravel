@@ -83,8 +83,8 @@ Restaurante Tupi
 						peixes e camarões. Todos servidos em pratos para duas ou quatro pessoas, além dos individuais.
 						<br>
 						&emsp;&emsp;
-                        A proposta da casa é comer bem e relaxar. O espaço também conta com um amplo espaço para as famílias,
-                        um espaço kids à vista dos pais, bem como um redário, no qual é possível descançar da viagem,
+                        A proposta da casa é comer bem e relaxar. O espaço proporciona às
+						famílias momentos de paz e bem-estar em meio à natureza enquanto desfrutam de nossos preparos.
 					</p>
 					<a href="{{ route('about') }}" class="txt5">
 						Ler Mais
@@ -101,6 +101,84 @@ Restaurante Tupi
                 </div>
 			</div>
 		</div>
+
+		<!-- A little about space -->
+        <div class="row">
+			<div class="wrap-text-welcome container t-center m-t-30">
+				<span class="tit2 p-l-15 p-r-15">
+					Conheça
+				</span>
+				<h3 class="tit3 m-t-5 contact-footer">
+					Nossas instalações
+				</h3>
+			</div>
+            <div class="col-md-4 p-t-30">
+                <div class="blo1">
+                    <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+                        <a href="{{ asset('images/original/salao.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('images/thumbs/salao.jpg') }}" alt="Salão Tupi">
+                        </a>
+                    </div>
+
+                    <div class="wrap-text-blo1 p-t-35">
+                        <h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
+                            Salão Principal
+                        </h4>
+
+                        <p class="m-b-20">
+                            O Restaurante tupi dispõe de um vasto espaço interno no qual os clientes podem se acomodar...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-t-30">
+                <div class="blo1">
+                    <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+                        <a href="{{ asset('images/original/parque.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('images/thumbs/parque.jpg') }}" alt="Parque Tupi">
+                        </a>
+                    </div>
+                    <div class="wrap-text-blo1 p-t-35">
+                        <h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
+                            Espaço Kids
+                        </h4>
+
+                        <p class="m-b-20">
+                            O Restaurante Tupi possui um playground, no qual as crianças podem brincar etc....
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-t-30">
+                <div class="blo1">
+                    <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+                        <a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
+                        </a>
+                    </div>
+
+                    <div class="wrap-text-blo1 p-t-35">
+                        <h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
+                            Redário
+                        </h4>
+
+                        <p class="m-b-20">
+                            Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento dos clientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-right m-t-25">
+                <a href="{{ route('about') }}" class="txt5" style="font-size: 28px;">
+                    Ler Mais
+                    <i class="fas fa-long-arrow-alt-right m-l-10" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
 	</div>
 </section>
 
