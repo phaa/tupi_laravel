@@ -457,6 +457,30 @@ iframe {
       background-image: url('../images/1280px/planta.jpg');
     }
   }
+
+  &.slide4 {
+    background-image: url('../images/1800px/parque.jpg');
+
+    @include for-size(phone-only) {
+      background-image: url('../images/480px/parque.jpg');
+    }
+
+    @include for-size(big-phone) {
+      background-image: url('../images/1024px/parque.jpg');
+    }
+
+    @include for-size(tablet-portrait-up) {
+      background-image: url('../images/1024px/parque.jpg');
+    }
+
+    @include for-size(tablet-landscape-up) {
+      background-image: url('../images/1024px/parque.jpg');
+    }
+
+    @include for-size(desktop-up) {
+      background-image: url('../images/1280px/parque.jpg');
+    }
+  }
 }
 
 /*[ Sections ]

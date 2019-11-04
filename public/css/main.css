@@ -404,6 +404,41 @@ iframe {
     @media (min-width: 1025px) and (max-width: 1280px) {
       .item-slick1.slide3 {
         background-image: url("../images/1280px/planta.jpg"); } }
+  .item-slick1.slide4 {
+    background-image: url("../images/1800px/parque.jpg");
+    /* 
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+    /* 
+    */
+    /* 
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+    /* 
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+    /* 
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */ }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .item-slick1.slide4 {
+        background-image: url("../images/480px/parque.jpg"); } }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .item-slick1.slide4 {
+        background-image: url("../images/1024px/parque.jpg"); } }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .item-slick1.slide4 {
+        background-image: url("../images/1024px/parque.jpg"); } }
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      .item-slick1.slide4 {
+        background-image: url("../images/1024px/parque.jpg"); } }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      .item-slick1.slide4 {
+        background-image: url("../images/1280px/parque.jpg"); } }
 
 /*[ Sections ]
 ///////////////////////////////////////////////////////////
