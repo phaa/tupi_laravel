@@ -21,10 +21,7 @@ Route::get('/cardapio', function ()
     return view('menu');
 })->name('menu');
 
-Route::get('/cardapio', function ()
-{
-    return view('menu');
-})->name('menu');
+Route::get('/cardapio', 'ShowMenu')->name('menu');
 
 Route::get('/sobre', function ()
 {

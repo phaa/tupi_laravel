@@ -34,9 +34,9 @@ class CreateProductTypesTable extends Migration
             'sobremesas'
         ];
 
-        for($i = 0; $i < sizeof($types_list); $i++)
+        for($i = 0; $i < sizeof($typesList); $i++)
         {
-            $productType = $types_list[$i];
+            $productType = $typesList[$i];
             $typesTable->insert([
                 'description' => $productType,
                 'created_at' =>  \Carbon\Carbon::now(), # \Datetime()
