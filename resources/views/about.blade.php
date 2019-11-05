@@ -29,7 +29,7 @@ Sobre Nós
 		</h3>
 
 		<p class="t-center size32 m-l-r-auto">
-			Fusce at risus eget mi auctor pulvinar. Suspendisse maximus venenatis pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in, luctus vel felis. Donec odio diam, dignissim a efficitur at, efficitur et est. Pellentesque semper est ut pulvinar ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et leo accumsan, egestas velit ac, fringilla tortor. Sed varius justo sed luctus mattis.
+			O Tupi começou em 2008 em Goianinha/RN como um pequeno café... Fusce at risus eget mi auctor pulvinar. Suspendisse maximus venenatis pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in, luctus vel felis. Donec odio diam, dignissim a efficitur at, efficitur et est. Pellentesque semper est ut pulvinar ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et leo accumsan, egestas velit ac, fringilla tortor. Sed varius justo sed luctus mattis.
 		</p>
 	</section>
 
@@ -57,77 +57,84 @@ Sobre Nós
 	<!-- Delicious & Romantic-->
 	<section class="bg1-pattern p-t-120 p-b-105">
 		<div class="container">
+
 			<!-- Salão Principal-->
 			<div id="salao-principal" class="row">
 				<div class="col-md-6 p-t-45 p-b-30">
 					<div class="wrap-text-delicious t-center">
 						<span class="tit2 t-center">
-							Delicious
+							O Salão
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							RECIPES
+							Principal
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+							O Restaurante tupi dispõe de um vasto espaço interno no qual os clientes podem se acomodar...
 						</p>
 					</div>
 				</div>
 
 				<div class="col-md-6 p-b-30">
 					<div class="wrap-pic-delicious size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-01.jpg" alt="IMG-OUR">
+						<a href="{{ asset('images/original/salao.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('images/thumbs/salao.jpg') }}" alt="Salão Tupi">
+                        </a>
 					</div>
 				</div>
 			</div>
 
 			<!-- Parquinho -->
-			<div id="parquinho" class="row p-t-170">
+			<div id="parquinho" class="row p-t-50">
 				<div class="col-md-6 p-b-30">
 					<div class="wrap-pic-romantic size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-02.jpg" alt="IMG-OUR">
+						<a href="{{ asset('images/original/parque.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('images/thumbs/parque.jpg') }}" alt="Parque Tupi">
+                        </a>
 					</div>
 				</div>
 
 				<div class="col-md-6 p-t-45 p-b-30">
 					<div class="wrap-text-romantic t-center">
 						<span class="tit2 t-center">
-							Romantic
+							Espaço
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Restaurant
+							Kids
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Fusce iaculis, quam quis volutpat cursus, tellus quam varius eros, in euismod lorem nisl in ante. Maecenas imperdiet vulputate dui sit amet vestibulum. Nulla quis suscipit nisl.
+							O Restaurante Tupi possui um playground, no qual as crianças podem brincar etc....
 						</p>
 					</div>
 				</div>
 			</div>
 
 			<!-- Redário -->
-			<div id="salao-principal" class="row">
+			<div id="salao-principal" class="row p-t-50">
 				<div class="col-md-6 p-t-45 p-b-30">
 					<div class="wrap-text-delicious t-center">
 						<span class="tit2 t-center">
-							Delicious
+							Descanço no
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							RECIPES
+							Redário
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+							Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento dos clientes.
 						</p>
 					</div>
 				</div>
 
 				<div class="col-md-6 p-b-30">
 					<div class="wrap-pic-delicious size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-01.jpg" alt="IMG-OUR">
+						<a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
+                        </a>
 					</div>
 				</div>
 			</div>
@@ -157,7 +164,7 @@ Sobre Nós
 					<!-- -Block5 -->
 					<div class="blo5 pos-relative p-t-60">
 						<div class="pic-blo5 size14 bo4 wrap-cir-pic hov-img-zoom ab-c-t">
-							<a href="#"><img src="images/avatar-02.jpg" alt="IGM-AVATAR"></a>
+							<a href="#"><img src="images/avatar-05.jpg" alt="IGM-AVATAR"></a>
 						</div>
 
 						<div class="text-blo5 size34 t-center bo-rad-10 bo7 p-t-90 p-l-35 p-r-35 p-b-30">
@@ -180,7 +187,7 @@ Sobre Nós
 					<!-- -Block5 -->
 					<div class="blo5 pos-relative p-t-60">
 						<div class="pic-blo5 size14 bo4 wrap-cir-pic hov-img-zoom ab-c-t">
-							<a href="#"><img src="images/avatar-03.jpg" alt="IGM-AVATAR"></a>
+							<a href="#"><img src="images/avatar-05.jpg" alt="IGM-AVATAR"></a>
 						</div>
 
 						<div class="text-blo5 size34 t-center bo-rad-10 bo7 p-t-90 p-l-35 p-r-35 p-b-30">

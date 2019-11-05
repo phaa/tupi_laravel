@@ -56,12 +56,12 @@ Restaurante Tupi
             <div class="item-slick1 slide4 item4-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
                     <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="lightSpeedIn">
-						Ambiente sossegado <br>
-						Vista incrível
+						Espaço Kids <br>
+						Próximo aos pais
                     </span>
 
                     <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
-                        Natureza
+                        Segurança
                     </h2>
                 </div>
             </div>
