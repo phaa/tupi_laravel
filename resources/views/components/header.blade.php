@@ -30,12 +30,12 @@
                                 <a href="{{ route('about') }}" class="">Sobre</a>
                             </li>
 
-                            <li class="{{ Route::current()->getName() == 'blog' ? 'active_link' : '' }}">
+                            <!--li class="{{ Route::current()->getName() == 'blog' ? 'active_link' : '' }}">
                                 <a href="{{ route('blog') }}" class="">Blog</a>
-                            </li>
+                            </li-->
 
                             <li class="{{ Route::current()->getName() == 'contact' ? 'active_link' : '' }}">
-                                <a href="{{ route('contact') }}" class="">Contato</a>
+                                <a href="{{ route('contact') }}" class="">Fale Conosco</a>
                             </li>
                         </ul>
                     </nav>

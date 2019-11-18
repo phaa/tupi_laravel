@@ -35,8 +35,12 @@
                         </span>
                         <span class="txt38 size38">
                             <ol>
-                                <li>(84) 9 9449-4411</li>
-                                <li>(84) 9 9143-2723</li>
+                                <li>
+                                    <a href="tel:84994494411" class="txt38">(84) 99449-4411</a>
+                                </li>
+                                <li>
+                                    <a href="tel:84991432723" class="txt38">(84) 99143-2723</a>
+                                </li>
                             </ol>
                         </span>
                     </div>

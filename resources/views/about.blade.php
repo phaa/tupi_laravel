@@ -60,14 +60,14 @@ Sobre Nós
 
 			<!-- Salão Principal-->
 			<div id="salao-principal" class="row">
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-delicious t-center">
+				<div class="col-md-6 p-t-45 p-b-30 ">
+					<div class="wrap-text-delicious t-center rustic-bg">
 						<span class="tit2 t-center">
 							O Salão
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Principal
+							Principalll
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">

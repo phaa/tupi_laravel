@@ -170,12 +170,16 @@ iframe {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  //-webkit-border-radius: 10px;
+  //border-radius: 10px;
   background: $success; 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
   background: $success; 
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 1);
 }
 
 
@@ -749,18 +753,7 @@ iframe {
 -----------------------------------------------------------
 */
 
-.social a {
-  font-size: 18px;
-  color: white;
-}
 
-.header-fixed .social a {
-  color: #fff;
-}
-
-.social a:hover {
-  color: $success;
-}
 
 
 @media (max-width: 1200px) {
@@ -798,15 +791,28 @@ iframe {
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   right: -100%;
-  ul{
-      margin-top: 50%;
+
+  & .social {
+    > .social-wrapper {
+      text-align: center;
+      margin: 15px auto 15px auto;
+    }
+    a {
+      font-size: 18px;
+      color: white;
+      &:hover{
+        color: $success;
+      }
+    }
   }
-  #sidebarHamburger {
+  
+  
+  & #sidebarHamburger {
     float: right; 
     margin-top: 35px;
     margin-right: 14px;
   }
-  .active_link a {
+  & .active_link a {
     color: #43A906;
   }
 }
@@ -816,6 +822,9 @@ iframe {
     width: 100%;
     #sidebarHamburger {
       margin-top: 18px;
+    }
+    ul > li > a {
+      font-size: 24px;
     }
   }
 }
@@ -1193,6 +1202,17 @@ iframe {
     height: 364px;
   }
 }
+
+/*[ Sobre ]
+///////////////////////////////////////////////////////////
+*/
+.rustic-bg {
+  background-image: url(../images/textures/wood.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 /*[ Video ]
 ///////////////////////////////////////////////////////////
