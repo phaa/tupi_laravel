@@ -3,6 +3,8 @@
 @section('extra_meta')
 	<meta name="description" content="O melhor sabor nordestino na região sul do RN."/>
 	<link rel="canonical" href="http://restaurantetupi.com.br/" />
+    <!-- The only script that needs to be loaded before the DOM -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 @endsection
 
 @section('title')
@@ -88,21 +90,23 @@ Restaurante Tupi
 					</h3>
 
 					<p class="m-b-22 size3 p-t-25 m-l-r-auto presentation-footer">
-						&emsp;&emsp;O Tupi foi pensado e criado com o intuito de oferecer aos clientes refeições de boa qualidade aliadas
-						a um ambiente tranquilo e agradável sem abrir mão, porém, do preço acessível.
-                        <br>
-						&emsp;&emsp;
-                        Oferecemos um cardápio regional que vai desde a carne de sol na brasa, galinha e paçoca até
-						peixes e camarões. Todos servidos em pratos para duas ou quatro pessoas, além dos individuais.
-						<br>
-						&emsp;&emsp;
-                        A proposta da casa é comer bem e relaxar. O espaço também conta com um amplo espaço para as famílias,
-                        um espaço kids à vista dos pais, bem como um redário, no qual é possível descançar da viagem,
+                        &emsp;&emsp;Somos uma empresa familiar atuando no mercado gastronômico há onze 
+                        anos, objetivando serviços de qualidade e padrão, aliado a preço 
+                        justo, porque acreditamos que, comida boa e saborosa com atendimento 
+                        eficaz não precisa ser caro.
+	                    <br>
+                        &emsp;&emsp;O Tupi foi pensado e criado para oferecer aos clientes refeições 
+                        saborosas em um ambiente agradável, tranquilo e diferenciado, com 
+                        acessibilidade e segurança. O espaço proporciona às famílias momentos
+                        de paz e bem-estar em meio à natureza. A proposta da casa é, comer
+                        bem e relaxar, fugir da agitação do dia a dia, conversar e se 
+                        envolver com a natureza ao redor. Meditar, colocar o pé no chão, 
+                        sentir a brisa fresca, ouvir o canto dos pássaros e desfrutar das 
+                        belas paisagens.
 					</p>
-					<a href="{{ route('about') }}" class="txt5">
-						Ler Mais
-						<i class="fas fa-long-arrow-alt-right m-l-10" aria-hidden="true"></i>
-					</a>
+					<a href="{{ route('about') }}" class="txt38">MAIS INFORMAÇÕES</a>
+                    •<a href="#feedbacks" class="txt38"> OPNIÕES</a>
+                    •<a href="#contact" class="txt38"> CONTATOS</a>
 				</div>
 			</div>
 
@@ -113,32 +117,13 @@ Restaurante Tupi
                     </a>
                 </div>
 			</div>
+            
 		</div>
+        <p class="txt14 t-center m-t-30">
+            <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
+            Terça a Domingo das 11:00 às 16:00
+        </p>
 	</div>
-</section>
-
-<!-- Intro -->
-<section>
-    <div class="header-intro rustic t-center p-t-135 p-b-158">
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Ambiente rústico
-		</h3>
-	</div>
-</section>
-
-<!-- Maps -->
-<section class="p-t-60 p-b-105">
-    <div class="wrap-text-welcome container t-center">
-        <span class="tit2 p-l-15 p-r-15">
-			Encontre a gente!
-		</span>
-        <h3 class="tit3 m-b-25 m-t-5 contact-footer">
-            Veja o mapa
-        </h3>
-        <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
-            <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        </div>
-    </div>
 </section>
 
 <!-- Intro -->
@@ -153,24 +138,60 @@ Restaurante Tupi
 	</div>
 </section>
 
-<!-- Review -->
-<section class="section-review p-t-70">
-    <div class="container title-review t-center m-b-2">
-		<span class="tit2 p-l-15 p-r-15">
-			Veja o que o pessoal diz
+<!-- Maps -->
+<section class="p-t-60 p-b-105">
+    <div class="wrap-text-welcome container t-center">
+        <span class="tit2 p-l-15 p-r-15">
+			Encontre a gente!
 		</span>
-
-		<h3 class="tit8 t-center p-l-20 p-r-15 p-t-3 contact-footer">
-			Avalie também!
-		</h3>
-	</div>
-
-	<!-- Google Reviews -->
-	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-	<div class="elfsight-app-b836c5c8-bac0-4c36-9c38-7f572ecaa01b"></div>
+        <h3 class="tit3 m-b-25 m-t-5 contact-footer">
+            Veja o mapa<i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
+        </h3>
+        <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
+            <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </div>
 </section>
 
+<!-- Intro -->
 <section>
+    <div class="header-intro rustic t-center p-t-135 p-b-158">
+		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+			Ambiente rústico
+		</h3>
+	</div>
+</section>
+
+<!-- Review -->
+<section id="feedbacks" class="section-review p-t-70 p-b-1">
+    <div class="container title-review t-center m-b-2">
+        <div id="salao-principal" class="row">
+			<div class="col-md-6 p-t-45 p-b-30 ">
+				<div class="wrap-text-delicious t-center">
+					<span class="tit2 t-center">
+						Experiências <i style="font-size: 35px;" class="fas fa-comment"></i>
+					</span>
+
+					<h3 class="tit3 t-center m-b-35 m-t-5">
+						Dos clientes
+					</h3>
+
+					<p class="t-center m-b-22 size3 m-l-r-auto">
+						Olha como eles ficaram contentes conosco. <i class="far fa-laugh-beam"></i> 
+                        <br>Veja as experiências que eles compartilharam daqui <i style="color:#dc3545;" class="fa fa-heart"></i>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 p-b-30">
+				<!-- Google Reviews -->
+                <div class="elfsight-app-b836c5c8-bac0-4c36-9c38-7f572ecaa01b"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--section>
     <div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
 			O melhor
@@ -179,10 +200,10 @@ Restaurante Tupi
 			Região sul do RN
 		</h3>
 	</div>
-</section>
+</section-->
 
 <!-- Social -->
-<section class="p-t-70">
+<section class="p-t-30">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
 			Siga-nos 
@@ -191,8 +212,7 @@ Restaurante Tupi
             Acompanhe nosso trabalho
         </h3>
     </div>
-    <div>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div>  
         <div class="elfsight-app-a1a5d7ce-bd3d-49f6-8f13-6d796c99b226"></div>
     </div>
 </section>
@@ -206,7 +226,7 @@ Restaurante Tupi
 <script src="{{ asset("js/slick-custom.js") }}"></script>
 <script type="text/javascript">
     window.onload = function() {
-        $(".eapps-remove-link").parent().hide();
+        //$(".eapps-remove-link").parent().hide();
     };
 </script>
 @endsection

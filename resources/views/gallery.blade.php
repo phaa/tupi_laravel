@@ -8,7 +8,7 @@ Galeria
 @section('page_content')
 	<section>
 		<!-- Title Page -->
-		<div class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url({{ asset('images/1800px/DSCF1934.jpg') }});">
+		<div class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url({{ asset('images/1800px/planta2.jpg') }});">
 			<h2 class="tit6 t-center">
 				Galeria Tupi
 			</h2>

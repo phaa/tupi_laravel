@@ -11,9 +11,9 @@ Sobre Nós
 
 @section('page_content')
 	<!-- Title Page -->
-	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/original/indio-bg.jpg);">
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/1800px/gramado.jpg);">
 		<h2 class="tit6 t-center">
-			Sobre a gente
+			Sobre Nós
 		</h2>
 	</section>
 
@@ -67,7 +67,7 @@ Sobre Nós
 						</span>
 
 						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Principalll
+							Principal
 						</h3>
 
 						<p class="t-center m-b-22 size3 m-l-r-auto">

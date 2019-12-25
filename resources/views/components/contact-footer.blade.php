@@ -1,7 +1,7 @@
 <!-- Footer -->
-<section>
-    <div class="container p-t-40 p-b-70">
-        <div class="row justify-content-md-center m-b-50 m-t-50">
+<section id="contact">
+    <div class="container p-b-70">
+        <div class="row justify-content-md-center m-b-50 p-t-50">
             <div class="col text-center">
                 <h1 class="txt1 contact-footer">Contatos</h1>
             </div>
@@ -68,5 +68,31 @@
             <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
             Terça a Domingo das 11:00 às 16:00
         </p>
+        <div class="m-l-r-auto row"> 
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/visa.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/visaeletron.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/master.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/maestro.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/hiper.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/amex.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/elo_deb.png') }}">
+            </div>
+            <div class="col"> 
+                <img src="{{ asset('images/icons/cards/elo_cred.png') }}">
+            </div>
+        </div>
     </div>
 </section>

@@ -9910,10 +9910,14 @@ $brown: #644425;
 }
 
 @media (max-width: 576px) {
-  .tit3 {
-    font-size: 43px; 
+  .tit2 {
+    font-size: 38px;
   }
 
+  .tit3 {
+    font-size: 37px; 
+  }
+ 
   .tit4 {
     font-size: 48px;
   }
@@ -9927,7 +9931,7 @@ $brown: #644425;
 .txt0 {
   font-family: Inkburrow;
   font-weight: 400;
-  font-size: 75px;
+  font-size: 65px;
   line-height: 1.1;
   color: #fff;
 }
@@ -10277,6 +10281,14 @@ $brown: #644425;
   line-height: 1.7;
   letter-spacing: 1.5px;
 }
+
+@media (max-width: 576px) {
+  .txt14 {
+    font-size: 30px; 
+  }
+}
+
+
 
 /*[ Color ]
 -----------------------------------------------------------

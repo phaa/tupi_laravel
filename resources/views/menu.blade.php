@@ -26,7 +26,7 @@
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/oca.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset(" images/menu/oca.jpg ") }}" alt="Camarão Oca">
+                            <img src="{{ asset("images/menu/thumbs/oca.jpg ") }}" alt="Camarão Oca">
                         </a>
                     </div>
 
@@ -45,7 +45,7 @@
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/seridoense.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset(" images/menu/seridoense.jpg ") }}" alt="Camarão Seridoense">
+                            <img src="{{ asset("images/menu/thumbs/seridoense.jpg ") }}" alt="Camarão Seridoense">
                         </a>
                     </div>
 
@@ -64,7 +64,7 @@
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/pituba.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset(" images/menu/pituba.jpg ") }}" alt="Carne de Sol Pituba">
+                            <img src="{{ asset("images/menu/thumbs/pituba.jpg ") }}" alt="Carne de Sol Pituba">
                         </a>
                     </div>
 
@@ -84,18 +84,19 @@
                 <!-- Block3 -->
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="{{ asset('images/menu/croquete.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset(" images/menu/croquete.jpg ") }}" alt="Croquete de Charque">
+                        <a href="{{ asset('images/menu/potiguar.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/potiguar.jpg ") }}" alt="Croquete de Charque">
                         </a>
                     </div>
 
                     <div class="text-blo3 size21 flex-col-l-m">
                         <a href="#" class="txt21b m-b-3">
-								Croquete de Charque
+								Peixe Potiguar
 							</a>
 
                         <span class="txt23">
-								Croquete de Charque com Jerimun 
+								Peixe grelhado com arroz cremoso de camarão. <br>
+                                Acompanha macaxeira frita.
 							</span>
                     </div>
                 </div>
@@ -104,7 +105,7 @@
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
                         <a href="{{ asset('images/menu/moqueca_peixe.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset(" images/menu/moqueca_peixe.jpg ") }}" alt="Moqueca de Peixe e Camarão">
+                            <img src="{{ asset("images/menu/thumbs/moqueca_peixe.jpg ") }}" alt="Moqueca de Peixe e Camarão">
                         </a>
                     </div>
 
@@ -122,19 +123,19 @@
                 <!-- Block3 -->
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
                     <div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
-                        <a href="{{ asset('images/menu/ratas.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset(" images/menu/ratas.jpg ") }}" alt="Moqueca de Peixe e Camarão">
+                        <a href="{{ asset('images/menu/galinha.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset("images/menu/thumbs/galinha.jpg ") }}" alt="Moqueca de Peixe e Camarão">
                         </a>
                     </div>
 
                     <div class="text-blo3 size21 flex-col-l-m">
                         <a href="#" class="txt21b m-b-3">
-								Ratas e Ratinhas
-							</a>
+							Galinha Tupi
+						</a>
 
                         <span class="txt23">
-								Um prato que ainda não tem nome
-							</span>
+                            Acompanha arroz, feijão, pirão, vinagrete, macaxeira e farofa
+						</span>
                     </div>
                 </div>
             </div>
