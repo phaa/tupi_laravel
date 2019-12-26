@@ -104,7 +104,7 @@ Restaurante Tupi
                         sentir a brisa fresca, ouvir o canto dos pássaros e desfrutar das 
                         belas paisagens.
 					</p>
-					<a href="{{ route('about') }}" class="txt38">MAIS INFORMAÇÕES</a>
+                    <a href="#contact" class="txt38"> PAGAMENTO</a>
                     •<a href="#feedbacks" class="txt38"> OPNIÕES</a>
                     •<a href="#contact" class="txt38"> CONTATOS</a>
 				</div>
@@ -138,33 +138,9 @@ Restaurante Tupi
 	</div>
 </section>
 
-<!-- Maps -->
-<section class="p-t-60 p-b-105">
-    <div class="wrap-text-welcome container t-center">
-        <span class="tit2 p-l-15 p-r-15">
-			Encontre a gente!
-		</span>
-        <h3 class="tit3 m-b-25 m-t-5 contact-footer">
-            Veja o mapa<i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
-        </h3>
-        <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
-            <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        </div>
-    </div>
-</section>
-
-<!-- Intro -->
-<section>
-    <div class="header-intro rustic t-center p-t-135 p-b-158">
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Ambiente rústico
-		</h3>
-	</div>
-</section>
-
-<!-- Review -->
-<section id="feedbacks" class="section-review p-t-70 p-b-1">
-    <div class="container title-review t-center m-b-2">
+<!-- Reviews -->
+<section id="feedbacks" class="section-review p-t-70 p-b-30">
+    <div class="container title-review t-center">
         <div id="salao-principal" class="row">
 			<div class="col-md-6 p-t-45 p-b-30 ">
 				<div class="wrap-text-delicious t-center">
@@ -177,8 +153,8 @@ Restaurante Tupi
 					</h3>
 
 					<p class="t-center m-b-22 size3 m-l-r-auto">
-						Olha como eles ficaram contentes conosco. <i class="far fa-laugh-beam"></i> 
-                        <br>Veja as experiências que eles compartilharam daqui <i style="color:#dc3545;" class="fa fa-heart"></i>
+						Veja como eles ficaram contentes conosco.
+                        <br>Olhe as experiências que eles compartilharam daqui <i style="color:#dc3545;" class="fa fa-heart"></i>
 					</p>
 				</div>
 			</div>
@@ -191,19 +167,20 @@ Restaurante Tupi
 	</div>
 </section>
 
-<!--section>
-    <div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
+<!-- Intro -->
+<section>
+    <div class="header-intro rustic t-center p-t-135 p-b-135">
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
-			O melhor
+			Simplicidade e elegância
 		</span>
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Região sul do RN
+        <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+			Ambiente rústico
 		</h3>
 	</div>
-</section-->
+</section>
 
 <!-- Social -->
-<section class="p-t-30">
+<section class="p-t-60">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
 			Siga-nos 
@@ -214,6 +191,21 @@ Restaurante Tupi
     </div>
     <div>  
         <div class="elfsight-app-a1a5d7ce-bd3d-49f6-8f13-6d796c99b226"></div>
+    </div>
+</section>
+
+<!-- Maps -->
+<section class="p-t-60 p-b-60">
+    <div class="wrap-text-welcome container t-center">
+        <span class="tit2 p-l-15 p-r-15">
+			Encontre a gente!
+		</span>
+        <h3 class="tit3 m-b-25 m-t-5 contact-footer">
+            Veja o mapa<i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
+        </h3>
+        <div class="bo8 bo-rad-10 of-hidden p-t-7" style="background-color: #222;">
+            <iframe width="100%" height="600" src="https://maps.google.com/maps?q=restaurante%20tupi%20goianinha&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
     </div>
 </section>
 
