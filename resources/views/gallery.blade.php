@@ -28,19 +28,19 @@ Galeria
 						Todas
 					</button>
 
-					<button class="label-gallery txt26 trans-0-4" data-filter=".interior">
+					<button class="label-gallery txt26 trans-0-4" data-filter=".ambientes">
 						Ambientes
 					</button>
 
-					<button class="label-gallery txt26 trans-0-4" data-filter=".food">
+					<button class="label-gallery txt26 trans-0-4" data-filter=".pratos">
 						Pratos
 					</button>
 
-					<button class="label-gallery txt26 trans-0-4" data-filter=".events">
+					<button class="label-gallery txt26 trans-0-4" data-filter=".eventos">
 						Eventos
 					</button>
 
-					<button class="label-gallery txt26 trans-0-4" data-filter=".guests">
+					<button class="label-gallery txt26 trans-0-4" data-filter=".natureza">
 						Natureza
 					</button>
 				</div>
@@ -48,7 +48,7 @@ Galeria
 
 			<div class="wrap-gallery isotope-grid flex-w p-l-25 p-r-25">
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom eventos natureza">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -57,7 +57,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom pratos">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -66,7 +66,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom eventos">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -75,7 +75,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom pratos">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -84,7 +84,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom food">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom pratos">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -93,7 +93,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior guests">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom ambientes natureza">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -102,7 +102,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom ambientes">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -111,7 +111,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom interior">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom ambientes">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
@@ -120,7 +120,7 @@ Galeria
 				</div>
 
 				<!-- - -->
-				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events">
+				<div class="item-gallery isotope-item bo-rad-10 hov-img-zoom eventos">
 					<img src="{{ asset('images/original/redario.jpg') }}" alt="IMG-GALLERY">
 
 					<div class="overlay-item-gallery trans-0-4 flex-c-m">
