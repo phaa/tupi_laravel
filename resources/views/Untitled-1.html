@@ -105,3 +105,132 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="bg-title-page flex-c-m p-t-80 p-b-80 p-l-15 p-r-15" style="background-image: url({{ asset('images/menu/cardapio.jpg') }});">
+    <h2 class="tit6 t-center">Cardápio completo</h2>
+</section>
+
+<!-- Complete Tupi Menu -->
+<section class="section-lunch bg1-pattern p-t-60">
+    <div class="container">
+        <div class="row justify-content-md-center m-b-50">
+            <div class="col text-center">
+                <span class="tit2 p-l-15 p-r-15">Veja agora</span>
+                <h1 class="txt1 contact-footer">Todos os pratos</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+			<!-- Primeira Coluna -->
+            <div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+                <div class="wrap-item-mainmenu p-b-22">
+
+                    <h3 class="tit-mainmenu tit10 p-b-25">Bebidas</h3> 
+					@foreach ($bebidas as $bebida)
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a class="name-item-mainmenu txt21">{{ $bebida['name'] }}</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $bebida['price']) }}</div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">{{ $bebida['description'] }}</span>
+                    </div>
+                    @endforeach
+
+					<h3 class="tit-mainmenu tit10 p-b-25">Sucos</h3> 
+					@foreach ($sucos as $suco)
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a class="name-item-mainmenu txt21">{{ $suco['name'] }}</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $suco['price']) }}</div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">{{ $suco['description'] }}</span>
+                    </div>
+                    @endforeach
+
+					<h3 class="tit-mainmenu tit10 p-b-25">Alcólicos</h3> 
+					@foreach ($alcolicos as $alcolico)
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a class="name-item-mainmenu txt21">{{ $alcolico['name'] }}</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">R${{ str_replace('.', ',', $alcolico['price']) }}</div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">{{ $alcolico['description'] }}</span>
+                    </div>
+                    @endforeach
+
+                </div>
+            </div>
+
+            <!-- Segunda Coluna -->
+            <div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+                <div class="wrap-item-mainmenu p-b-22">
+                    <h3 class="tit-mainmenu tit10 p-b-25">
+							Drinks
+						</h3>
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a href="#" class="name-item-mainmenu txt21">
+								Pine nut sbrisalona
+								</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">
+                                $29.79
+                            </div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">
+							Sed fermentum eros vitae eros
+							</span>
+                    </div>
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a href="#" class="name-item-mainmenu txt21">
+								Aenean eu
+								</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">
+                                $19.35
+                            </div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">
+							Feugiat maximus neque pharetra
+							</span>
+                    </div>
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a href="#" class="name-item-mainmenu txt21">
+								Sed feugiat
+								</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">
+                                $12.19
+                            </div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">
+							Proin lacinia nisl ut ultricies posuere nulla
+							</span>
+                    </div>
+                    <div class="item-mainmenu m-b-36">
+                        <div class="flex-w flex-b m-b-3">
+                            <a href="#" class="name-item-mainmenu txt21">
+								Consectetur
+							</a>
+                            <div class="line-item-mainmenu bg3-pattern"></div>
+                            <div class="price-item-mainmenu txt22">
+                                $21.89
+                            </div>
+                        </div>
+                        <span class="info-item-mainmenu txt23">
+							Etiam cursus facilisis tortor
+						</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>

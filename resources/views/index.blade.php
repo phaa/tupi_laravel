@@ -3,8 +3,6 @@
 @section('extra_meta')
 	<meta name="description" content="O melhor sabor nordestino na região sul do RN."/>
 	<link rel="canonical" href="http://restaurantetupi.com.br/" />
-    <!-- The only script that needs to be loaded before the DOM -->
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 @endsection
 
 @section('title')
@@ -13,7 +11,6 @@ Restaurante Tupi
 
 <!-- Index blade -->
 @section('page_content')
-
 <!-- Carousel -->
 <section class="section-slide">
     <div class="wrap-slick1">
@@ -214,11 +211,8 @@ Restaurante Tupi
 @endsection
 
 @section('additional_scripts')
+<!-- The only script that needs to be loaded before the DOM -->
+<script src="https://apps.elfsight.com/p/platform.js" async defer></script>
 <script src="{{ asset("vendor/slick/slick.min.js") }}"></script>
 <script src="{{ asset("js/slick-custom.js") }}"></script>
-<script type="text/javascript">
-    window.onload = function() {
-        //$(".eapps-remove-link").parent().hide();
-    };
-</script>
 @endsection

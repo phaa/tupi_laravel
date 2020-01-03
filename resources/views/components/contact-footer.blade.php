@@ -1,10 +1,13 @@
 <!-- Footer -->
 <section id="contact">
     <div class="container p-b-70">
-        <div class="row justify-content-md-center m-b-50 p-t-50">
-            <div class="col text-center">
-                <h1 class="txt1 contact-footer">Contatos</h1>
-            </div>
+        <div class="t-center m-b-50 p-t-30">
+            <span class="tit2 p-l-15 p-r-15">
+                Pagamento e
+            </span>
+            <h3 class="tit3 m-b-25 m-t-5 contact-footer">
+                Contatos
+            </h3>
         </div>
         
         <div class="row">

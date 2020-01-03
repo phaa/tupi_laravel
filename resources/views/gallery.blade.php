@@ -32,9 +32,9 @@ Galeria
 						Ambientes
 					</button>
 
-					<button class="label-gallery txt26 trans-0-4" data-filter=".pratos">
+					<!--button class="label-gallery txt26 trans-0-4" data-filter=".pratos">
 						Pratos
-					</button>
+					</button-->
 
 					<button class="label-gallery txt26 trans-0-4" data-filter=".eventos">
 						Eventos
