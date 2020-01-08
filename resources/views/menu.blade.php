@@ -14,14 +14,18 @@
 <!-- Main menu -->
 <section class="section-mainmenu p-t-60 p-b-10 bg1-pattern">
     <div class="container">
-        <div class="row justify-content-md-center m-b-30">
-            <div class="col text-center">
-                <span class="tit2">Especialidades</span>
-                <h1 class="txt1 contact-footer">Da casa</h1>
-                <span class="txt23">(Clique nas imagens para ampliar)</span>
+        <div class="row justify-content-md-center contact-footer m-b-30">
+            <div class="col-sm-12 text-center">
+                <span class="tit2">Os Mais pedidos</span>
+                <h1 class="txt1 ">Da casa</h1>
+            </div>
+            <div style="margin: auto 0" class="col-sm-12 text-center">
+                <span class="txt21">
+                O Tupi oferece uma ampla variedade de pratos da culinária regional.<br>
+                </span>
             </div>
         </div>
-        <div class="row p-b-70">
+        <div class="row p-b-30">
             <div class="col-md-8 col-lg-6 m-l-r-auto">
                 <!-- Block3 -->
                 <div class="blo3 flex-w flex-col-l-sm m-b-30">
@@ -177,6 +181,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="txt23 p-b-30">
+            <p class="text-center">(Clique nas imagens para ampliar)</p>
+            <p class="text-center">Em caso de necessidade de conferir preços no cardápio para eventos, favor entrar em contato por telefone.</p>
         </div>
     </div>
 </section>

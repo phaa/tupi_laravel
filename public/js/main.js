@@ -32,7 +32,7 @@
     });
 
     /*[ Play video 01]
-    ===========================================================*/
+    ===========================================================
     var srcOld = $('.video-mo-01').children('iframe').attr('src');
 
     $('[data-target="#modal-video-01"]').on('click',function(){
@@ -47,6 +47,7 @@
         $('.video-mo-01').children('iframe')[0].src = srcOld;
         $('.video-mo-01').css('opacity','0');
     });
+    */
 
     /*[ Fixed Header ]
     ===========================================================*/
@@ -79,15 +80,17 @@
         $("body, html").toggleClass("overflow-diff");
     }
 
+    //When the hamburger is inside the upper nav
     hamburger.on('click', function(){
         callback();
     })
 
+    //When the hamburger is inside the sidebar
     toogledHamburger.on('click', function(){
         callback();
     })
 
-    //parte preta fira da sidebar
+    //Sidebar overlay
     ovlSideBar.on('click', function(){
         callback();
     })
@@ -97,15 +100,6 @@
     ===========================================================*/
     var topeContainer = $('.isotope-grid');
     var filter = $('.filter-tope-group');
-
-    // filter items on button click
-    filter.each(function () {
-        filter.on('click', 'button', function () {
-            var filterValue = $(this).attr('data-filter');
-            topeContainer.isotope({filter: filterValue});
-        });
-
-    });
 
     // init Isotope
     $(window).on('load', function () {
@@ -121,6 +115,46 @@
         });
     });
 
+    // filter items on button click
+    filter.each(function () {
+        filter.on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            //Toda vez que filtrar, ele vai apagar todos os elementos do grid primeiro 
+            //para liberar memoria
+            topeContainer.empty();
+
+            //que cada filtro vai corresponder a uma pasta, então vou pegar um pouco 
+            //de imagens daquela pasta
+            topeContainer.isotope({filter: filterValue});
+            //filterValue = some folder on server
+            //get a chunck from that folder laravel querySet->paginate(3)
+
+            //make some ajax request to get that images from server on button click 
+            //or use jscroll to fill isotope grid on user scroll
+
+            /**
+             * var options = {
+             *      loadingHtml: '<img src="loading.gif" alt="Loading" /> Loading...',
+             *      padding: 20,
+             *      nextSelector: 'some <a> with laravel route'
+             * };
+             * 
+             * Something like:
+             * $(function() {
+             *     $('.isotope-grid').jscroll();    
+             * });
+             * 
+             * A medida que for descendo a pagina, vai pegando as imagens que correspondem 
+             * ao filtro atual.
+             */
+
+            
+            //aqui vamos colocar as requisições AJAX para puxar as imagens 
+        });
+
+    });
+
+    //Coloca o risco verde embaixo do ativo
     var labelGallerys = $('.label-gallery');
 
     $(labelGallerys).each(function(){
@@ -128,10 +162,9 @@
             for(var i=0; i<labelGallerys.length; i++) {
                 $(labelGallerys[i]).removeClass('is-actived');
             }
-
             $(this).addClass('is-actived');
         });
-    });
+    });   
 
     lightbox.option({
         'disableScrolling' : true

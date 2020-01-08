@@ -19,7 +19,7 @@ Sobre Nós
 
 
 	<!-- Our Story -->
-	<section class="bg2-pattern p-t-116 p-b-110 t-center p-l-15 p-r-15">
+	<section class="bg2-pattern p-t-70 p-b-70 t-center p-l-15 p-r-15">
 		<span class="tit2 t-center">
 			Restaurante Tupi
 		</span>
@@ -61,105 +61,8 @@ Sobre Nós
 		</p>
 	</section>
 
-<section>
-    <div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
-		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
-			O melhor
-		</span>
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-			Região sul do RN
-		</h3>
-	</div>
-</section>
-
-	<section class="bg1-pattern p-t-120 p-b-105">
-		<div class="container">
-
-			<!-- Salão Principal-->
-			<div id="salao-principal" class="row">
-				<div class="col-md-6 p-t-45 p-b-30 ">
-					<div class="wrap-text-delicious t-center rustic-bg">
-						<span class="tit2 t-center">
-							O Salão
-						</span>
-
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Principal
-						</h3>
-
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-							O Restaurante tupi dispõe de um vasto espaço interno no qual os clientes podem se acomodar...
-						</p>
-					</div>
-				</div>
-
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-delicious size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<a href="{{ asset('images/original/salao.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset('images/thumbs/salao.jpg') }}" alt="Salão Tupi">
-                        </a>
-					</div>
-				</div>
-			</div>
-
-			<!-- Parquinho -->
-			<div id="parquinho" class="row p-t-50">
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-romantic size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<a href="{{ asset('images/original/parque.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset('images/thumbs/parque.jpg') }}" alt="Parque Tupi">
-                        </a>
-					</div>
-				</div>
-
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-romantic t-center">
-						<span class="tit2 t-center">
-							Espaço
-						</span>
-
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Kids
-						</h3>
-
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-							O Restaurante Tupi possui um playground, no qual as crianças podem brincar etc....
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- Redário -->
-			<div id="salao-principal" class="row p-t-50">
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-delicious t-center">
-						<span class="tit2 t-center">
-							Descanço no
-						</span>
-
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Redário
-						</h3>
-
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento dos clientes.
-						</p>
-					</div>
-				</div>
-
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-delicious size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
-                            <img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
-                        </a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Our Story -->
-	<section class="bg2-pattern p-t-116 p-b-110 t-center p-l-15 p-r-15">
+	<!-- Why Tupi -->
+	<section class="bg2-pattern p-t-30 p-b-110 t-center p-l-15 p-r-15">
 		<span class="tit2 t-center">
 			Significado
 		</span>
@@ -181,7 +84,90 @@ Sobre Nós
 			terras e a cultura indígena que na sua essência é belíssima e muito rica.
 		</p>
 	</section>
-	
+
+	<section>
+		<div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
+			<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
+				O melhor
+			</span>
+			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+				Região sul do RN
+			</h3>
+		</div>
+	</section>
+
+	<section class="bg1-pattern">
+		<div class="container">
+			<div class="row">
+				<div class="wrap-text-welcome container t-center m-t-60">
+					<span class="tit2 p-l-15 p-r-15">
+						Conheça
+					</span>
+					<h3 class="tit3 m-t-5 contact-footer">
+						Nossas instalações
+					</h3>
+				</div>
+				<div class="col-md-4 p-t-30">
+					<div class="blo1">
+						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+							<a href="{{ asset('images/original/salao.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset('images/thumbs/salao.jpg') }}" alt="Salão Tupi">
+							</a>
+						</div>
+
+						<div class="wrap-text-blo1 p-t-35">
+							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
+								Salão Principal
+							</h4>
+
+							<p class="m-b-20">
+								O Restaurante tupi dispõe de um vasto espaço interno no qual os clientes podem se acomodar...
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 p-t-30">
+					<div class="blo1">
+						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+							<a href="{{ asset('images/original/parque.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset('images/thumbs/parque.jpg') }}" alt="Parque Tupi">
+							</a>
+						</div>
+						<div class="wrap-text-blo1 p-t-35">
+							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
+								Espaço Kids
+							</h4>
+
+							<p class="m-b-20">
+								O Restaurante Tupi possui um playground, no qual as crianças podem brincar etc....
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 p-t-30">
+					<div class="blo1">
+						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+							<a href="{{ asset('images/original/redario.jpg') }}" data-lightbox="gallery">
+								<img src="{{ asset('images/thumbs/redario.jpg') }}" alt="Redário Tupi">
+							</a>
+						</div>
+
+						<div class="wrap-text-blo1 p-t-35">
+							<h4 class="txt5 color0-hov trans-0-4 m-b-13 text-center">
+								Redário
+							</h4>
+
+							<p class="m-b-20">
+								Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento dos clientes.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- Modal Video 01-->
 	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">

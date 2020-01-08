@@ -17,51 +17,51 @@ Restaurante Tupi
         <div class="slick1">
             <div class="item-slick1 slide1 item1-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                    <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="fadeInDown">
-                        Bem Vindo ao
-                    </span>
-
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
+                    <p class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="fadeInDown">
                         Restaurante Tupi
-                    </h2>
+                    </p>
+
+                    <p class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp" style="">
+                        Bem vindo!
+                    </p>
                 </div>
             </div>
 
             <div class="item-slick1 slide2 item2-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                    <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rollIn">
+                    <h3 class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rollIn">
                         Amplo espaço para famílias
-                    </span>
+                    </h3>
 
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="lightSpeedIn">
+                    <h3 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="lightSpeedIn">
                         Conforto
-                    </h2>
+                    </h3>
                 </div>
             </div>
 
             <div class="item-slick1 slide3 item3-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                    <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+                    <h3 class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
 						Ambiente sossegado <br>
 						Vista incrível
-                    </span>
+                    </h3>
 
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="rotateInUpRight">
+                    <h3 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="rotateInUpRight">
                         Natureza
-                    </h2>
+                    </h3>
                 </div>
             </div>
 
             <div class="item-slick1 slide4 item4-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                    <span class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="lightSpeedIn">
+                    <h3 class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="lightSpeedIn">
 						Espaço Kids <br>
 						Próximo aos pais
-                    </span>
+                    </h3>
 
-                    <h2 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
+                    <h3 class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
                         Segurança
-                    </h2>
+                    </h3>
                 </div>
             </div>
 
@@ -81,13 +81,16 @@ Restaurante Tupi
 					<span class="tit2 t-center">
 						Restaurante Tupi
 					</span>
-
-					<h3 class="tit3 t-center m-t-5">
-						Bem Vindo
-					</h3>
-
-					<p class="m-b-22 size3 p-t-25 m-l-r-auto presentation-footer">
-                        &emsp;&emsp;Somos uma empresa familiar atuando no mercado gastronômico há onze 
+                    <br>
+					<span class="tit3 t-center m-t-5">
+						Bem Vindo!
+					</span>
+                    <h1 class="tit3 t-center m-t-5">
+						Restaurante de culinária tipica nordestina 
+					</h1>
+                    <!--presentation-footer-->
+					<p class="m-b-22 size3 p-t-20 m-l-r-auto ">
+                        &emsp;&emsp;Somos uma restaurante familiar atuando no mercado gastronômico há onze 
                         anos, objetivando serviços de qualidade e padrão, aliado a preço 
                         justo, porque acreditamos que, comida boa e saborosa com atendimento 
                         eficaz não precisa ser caro.
@@ -110,16 +113,16 @@ Restaurante Tupi
 			<div class="col-md-6 p-b-30">
                 <div style="height: 100%;" class="bo-rad-10 hov-img-zoom m-l-r-auto">
                     <a href="{{ asset('images/original/entrada.jpg') }}" data-lightbox="gallery">
-                        <img style="object-fit: cover;" src="{{ asset('images/thumbs/entrada.jpg') }}" alt="Entrada Tupi">
+                        <img style="object-fit: cover;" src="{{ asset('images/thumbs/entrada.jpg') }}" alt="Entrada Restaurante Tupi">
                     </a>
                 </div>
 			</div>
             
 		</div>
-        <p class="txt14 t-center m-t-30">
+        <h2 class="txt14 t-center m-t-30">
             <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
             Terça a Domingo das 11:00 às 16:00
-        </p>
+        </h2>
 	</div>
 </section>
 
@@ -129,9 +132,9 @@ Restaurante Tupi
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
 			Conheça o
 		</span>
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+		<h2 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 			Vale da Gruta do Bode
-		</h3>
+		</h2>
 	</div>
 </section>
 
@@ -139,19 +142,19 @@ Restaurante Tupi
 <section id="feedbacks" class="section-review p-t-70 p-b-30">
     <div class="container title-review t-center">
         <div id="salao-principal" class="row">
-			<div class="col-md-6 p-t-45 p-b-30 ">
+			<div class="col-md-6 p-t-30 p-b-30 ">
 				<div class="wrap-text-delicious t-center">
 					<span class="tit2 t-center">
 						Experiências <i style="font-size: 35px;" class="fas fa-comment"></i>
 					</span>
 
-					<h3 class="tit3 t-center m-b-35 m-t-5">
+					<h3 class="tit3 t-center m-b-20 m-t-5">
 						Dos clientes
 					</h3>
 
 					<p class="t-center m-b-22 size3 m-l-r-auto">
 						Veja como eles ficaram contentes conosco.
-                        <br>Olhe as experiências que eles compartilharam daqui <i style="color:#dc3545;" class="fa fa-heart"></i>
+                        <br>Olhe as experiências que eles compartilharam daqui.<i style="color:#dc3545;" class="fa fa-heart"></i>
 					</p>
 				</div>
 			</div>
@@ -170,9 +173,9 @@ Restaurante Tupi
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
 			Simplicidade e elegância
 		</span>
-        <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+        <h2 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 			Ambiente rústico
-		</h3>
+		</h2>
 	</div>
 </section>
 
@@ -182,9 +185,11 @@ Restaurante Tupi
         <span class="tit2 p-l-15 p-r-15">
 			Siga-nos 
 		</span>
-        <h3 class="tit3 m-b-25 m-t-5 contact-footer">
+        <br>
+        <p class="tit3 m-b-5 m-t-5 t-center contact-footer">
             Acompanhe nosso trabalho
-        </h3>
+        </p>
+        <br>
     </div>
     <div>  
         <div class="elfsight-app-a1a5d7ce-bd3d-49f6-8f13-6d796c99b226"></div>

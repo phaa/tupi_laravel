@@ -43,8 +43,9 @@ Route::get('/contato', function ()
     return view('contact');
 })->name('contact');
 
-Route::get('/galeria', function ()
-{
-    return view('gallery');
-})->name('gallery');
+Route::get('/galeria', 'GalleryController@show')->name('gallery');
+
+Route::get('upload/', 'UploadController@show')->name('show');
+Route::post('upload/', 'UploadController@upload')->name('upload');
+
 

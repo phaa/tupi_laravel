@@ -20,9 +20,9 @@
                         <span class="txt37 p-b-10">
                             Endereço
                         </span>
-                        <span class="txt38 size38">
+                        <h1 class="txt38 size38">
                             BR 101, KM 157, Goianinha, Rio Grande do Norte, Brasil
-                        </span>
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -59,9 +59,11 @@
                         <span class="txt37 p-b-10">
                             E-mail
                         </span>
-                        <span class="txt38 size38" style="text-transform: lowercase;">
-                            restaurantetupi <br> @hotmail.com
-                        </span>
+                        <a href="mailto:restaurantetupi@hotmail.com">
+                            <span class="txt38 size38" style="text-transform: lowercase;">
+                                restaurantetupi <br> @hotmail.com
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>

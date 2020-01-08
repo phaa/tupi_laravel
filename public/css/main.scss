@@ -752,6 +752,15 @@ iframe {
 /*[ Social header's links ]
 -----------------------------------------------------------
 */
+.social {
+  a {
+    color: #fff;
+    &:hover{
+      color: $success;
+    }
+  }
+}
+
 
 
 
@@ -860,7 +869,7 @@ iframe {
 
 /* ------------------------------------ */
 
-.item-gallery-sidebar {
+.grid__item-sidebar {
   display: block;
   position: relative;
   width: calc((100% - 30px) / 3 );
@@ -1338,7 +1347,7 @@ body {
 ///////////////////////////////////////////////////////////
 */
 
-.item-gallery-footer {
+.grid__item-footer {
   display: block;
   position: relative;
   width: calc((100% - 50px) / 4 );
@@ -1468,20 +1477,65 @@ body {
   border-bottom-color: $success;
 }
 
+ul.navigation{
+  display:none;
+}
+
 /* ------------------------------------ */
+.grid {
+  max-width: 1200px;
+}
+/* reveal grid after images loaded */
+.grid.are-images-unloaded {
+  opacity: 0;
+}
+
+.grid__item,
+.grid__col-sizer {
+  width: 32%;
+}
+
+.grid__gutter-sizer { width: 2%; }
+
+/* hide by default */
+.grid.are-images-unloaded .image-grid__item {
+  opacity: 0;
+}
+
+.grid__item {
+  margin-bottom: 20px;
+  float: left;
+  //
+  //margin: 30px 15px;
+  //display: inline-block;
+  //position: relative;
+}
+
+.grid__item--height1 { height: 140px; background: #EA0; }
+.grid__item--height2 { height: 220px; background: #C25; }
+.grid__item--height3 { height: 300px; background: #19F; }
+
+.grid__item--width2 { width: 66%; }
+
+.grid__item img {
+  display: block;
+  max-width: 100%;
+}
+
+.page-load-status {
+  display: none; /* hidden by default */
+  padding-top: 20px;
+  border-top: 1px solid #DDD;
+  text-align: center;
+  color: #777;
+}
 
 .wrap-gallery {
   width: 100%;
   box-sizing: border-box;
 }
 
-.item-gallery {
-  width: calc( (100% - 140px) / 3 );
-  margin: 30px 15px;
-  position: relative;
-}
-
-.overlay-item-gallery {
+.overlay-grid__item {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1505,13 +1559,13 @@ body {
 }
 
 @media (max-width: 768px) {
-  .item-gallery {
+  .grid__item {
     width: calc((100% - 110px) / 2);
   }
 }
 
 @media (max-width: 576px) {
-  .item-gallery {
+  .grid__item {
     width: calc((100% - 30px) / 1);
   }
   .wrap-gallery {
