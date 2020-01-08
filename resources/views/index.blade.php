@@ -1,7 +1,12 @@
 @extends('templates.layout')
 
 @section('extra_meta')
-	<meta name="description" content="O melhor sabor nordestino na região sul do RN."/>
+    <meta name="description" content="Bem-vindo ao Tupi. Restaurante de culinária nordestina a 60 Km de Natal - RN. Ambiente rústico e confortável em meio à mata atlântica. Veja nossos pratos.">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 day">
+    <meta name="language" content="Portuguese">
+    <meta name="generator" content="N/A">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="canonical" href="http://restaurantetupi.com.br/" />
 @endsection
 
@@ -17,13 +22,12 @@ Restaurante Tupi
         <div class="slick1">
             <div class="item-slick1 slide1 item1-slick1">
                 <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                    <p class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+                    <h2 class="caption1-slide1 txt0 t-center animated visible-false m-b-15" data-appear="fadeInDown">
                         Restaurante Tupi
-                    </p>
-
-                    <p class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp" style="">
+                    </h2>
+                    <span class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
                         Bem vindo!
-                    </p>
+                    </span>
                 </div>
             </div>
 
@@ -79,15 +83,12 @@ Restaurante Tupi
 			<div class="col-md-6 p-t-35 p-b-30">
 				<div class="wrap-text-welcome t-center">
 					<span class="tit2 t-center">
-						Restaurante Tupi
+						Somos um
 					</span>
                     <br>
-					<span class="tit3 t-center m-t-5">
-						Bem Vindo!
-					</span>
-                    <h1 class="tit3 t-center m-t-5">
-						Restaurante de culinária tipica nordestina 
-					</h1>
+					<h1 class="tit3 t-center m-t-5" style="font-size: 30px;">
+						Restaurante de culinária nordestina a 60 km de Natal
+                    </h1>
                     <!--presentation-footer-->
 					<p class="m-b-22 size3 p-t-20 m-l-r-auto ">
                         &emsp;&emsp;Somos uma restaurante familiar atuando no mercado gastronômico há onze 
