@@ -145,13 +145,13 @@ Restaurante Tupi
         <div id="salao-principal" class="row">
 			<div class="col-md-6 p-t-30 p-b-30 ">
 				<div class="wrap-text-delicious t-center">
-					<span class="tit2 t-center">
+					<h3 class="tit2 t-center">
 						Experiências <i style="font-size: 35px;" class="fas fa-comment"></i>
-					</span>
+                    </h3>
 
-					<h3 class="tit3 t-center m-b-20 m-t-5">
+					<span class="tit3 t-center m-b-20 m-t-5">
 						Dos clientes
-					</h3>
+                    </span>
 
 					<p class="t-center m-b-22 size3 m-l-r-auto">
 						Veja como eles ficaram contentes conosco.

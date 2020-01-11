@@ -21,30 +21,6 @@ Galeria
 					Filtros
 				</span>
 			</div>
-			
-			<!--div class="wrap-label-gallery filter-tope-group flex-w flex-sb-m m-l-r-auto flex-col-c-sm text-center">
-				<div class="wrap-labels m-l-r-auto">
-					<button class="label-gallery txt26 trans-0-4 is-actived" data-filter="*">
-						Todas
-					</button>
-
-					<button class="label-gallery txt26 trans-0-4" data-filter=".ambientes">
-						Ambientes
-					</button>
-
-					<button class="label-gallery txt26 trans-0-4" data-filter=".pratos">
-						Pratos
-					</button>
-
-					<button class="label-gallery txt26 trans-0-4" data-filter=".eventos">
-						Eventos
-					</button>
-
-					<button class="label-gallery txt26 trans-0-4" data-filter=".natureza">
-						Natureza
-					</button>
-				</div>
-			</div deica para um container externo p-l-25 p-r-25 p-b-115   -->
 
 			<div class="grid are-images-unloaded">
 				<div class="grid__col-sizer"></div>
@@ -70,12 +46,6 @@ Galeria
 			<p class="infinite-scroll-last">Fim das fotos</p>
 			<p class="infinite-scroll-error">Nenhum dado para carregar</p>
 			</div>
-
-			<!--div class="pagination flex-c-m flex-w p-l-15 p-r-15 m-t-24 m-b-50">
-				<a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
-				<a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
-				<a href="#" class="item-pagination flex-c-m trans-0-4">3</a>
-			</div-->
 		</div>
 	</section>
 
@@ -86,8 +56,7 @@ Galeria
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
 <script type="text/javascript">
-	
-
+//Lazy load the images, just after load all the scripts
 $(function() {
     $('ul.pagination').css('opacity', '0');
     // init Masonry
@@ -116,22 +85,6 @@ $(function() {
     });
     
     //-------------------------------------//
-    // hack CodePen to load pens as pages
-    
-    var nextPenSlugs = [
-        '202252c2f5f192688dada252913ccf13',
-        'a308f05af22690139e9a2bc655bfe3ee',
-        '6c9ff23039157ee37b3ab982245eef28',
-    ];
-    
-    function getPenPath() {
-        var slug = nextPenSlugs[ this.loadCount ];
-        if ( slug ) {
-        return 'https://s.codepen.io/desandro/debug/' + slug;
-        }
-    }
-    
-    //-------------------------------------//
     // init Infinte Scroll
     
     $grid.infiniteScroll({
@@ -146,6 +99,5 @@ $(function() {
 });
 
 </script>
-	<!--script type="text/javascript" src="{{ asset("vendor/isotope/isotope.pkgd.min.js") }}"></script-->
 
 @endsection
