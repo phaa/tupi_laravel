@@ -1,7 +1,7 @@
 @extends('templates.layout')
 
 @section('extra_meta')
-    <meta name="description" content="Bem-vindo ao Tupi. Restaurante de culinária nordestina a 60 Km de Natal - RN. Ambiente rústico e confortável em meio à mata atlântica. Veja nossos pratos.">
+    <meta name="description" content="Bem-vindo ao Tupi. Restaurante de culinária nordestina no caminho entre Natal e João Pessoa. Ambiente rústico e confortável em meio à mata atlântica">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="7 day">
     <meta name="language" content="Portuguese">
@@ -63,7 +63,7 @@
 @endsection
 
 @section('title')
-Restaurante Tupi
+Restaurante Tupi - Comer bem e relaxar
 @endsection
 
 <!-- Index blade -->
@@ -133,7 +133,7 @@ Restaurante Tupi
 				<div class="wrap-text-welcome t-center">
                     <h1 class="t-center size3 m-l-r-auto">
 						<span class="tit2">Restaurante de Culinária nordestina</span><br>
-                        <span class="tit3">A Caminho de Natal e João Pessoa</span><i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
+                        <span class="tit3">Entre Natal e João Pessoa</span><i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
                     </h1>
                     
                     <!--presentation-footer-->
@@ -144,7 +144,7 @@ Restaurante Tupi
                         proporcionar serviços com alto padrão de qualidade aliados a um preço justo.
                         Clique <a href="{{ route('about') }}">aqui</a> e saiba mais!
 					</p>
-                    <a href="#contact" class="txt38">LOCALIZAÇÃO</a>
+                    <a href="#localization" class="txt38">MAPA</a>
                     •<a href="#feedbacks" class="txt38"> OPNIÕES</a>
                     •<a href="#contact" class="txt38"> CONTATOS</a>
 				</div>
@@ -160,7 +160,7 @@ Restaurante Tupi
 		</div>
         <h2 class="txt14 t-center m-t-30">
             <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
-            Terça a Domingo das 11:00 às 16:00
+            Terça a Domingo 11:00 às 16:00
         </h2>
 	</div>
 </section>
@@ -236,7 +236,7 @@ Restaurante Tupi
 </section>
 
 <!-- Maps -->
-<section class="p-t-60 p-b-60">
+<section id="localization" class="p-t-60 p-b-60">
     <div class="wrap-text-welcome container t-center">
         <span class="tit2 p-l-15 p-r-15">
 			Encontre a gente!

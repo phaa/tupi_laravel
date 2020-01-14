@@ -1,6 +1,13 @@
-@extends('templates.layout') @section('extra_meta')
-<meta name="description" content="Confira os nossos preparos." />
-<link rel="canonical" href="http://restaurantetupi.com.br/cardápio" /> @endsection @section('title') Cardápio @endsection
+@extends('templates.layout') 
+
+@section('extra_meta')
+<meta name="description" content="Confira os pratos mais pedidos no Restaurante Tupi." />
+<link rel="canonical" href="http://restaurantetupi.com.br/cardapio" /> 
+@endsection 
+
+@section('title') 
+Cardápio 
+@endsection
 
 <!-- Menu -->
 @section('page_content')
@@ -41,7 +48,7 @@
 						</span>
 
                         <span class="txt23">
-							Camarão empanado com arroz cremoso e fritas.
+							Camarão empanado com arroz cremoso de queijo e batata frita.
 						</span>
                     </div>
                 </div>
@@ -80,7 +87,7 @@
 						</span>
 
                         <span class="txt23">
-							Acompanha baião de dois, farofa e vinagrete.
+							Acompanha baião de dois e macaxeira frita.
 						</span>
                     </div>
                 </div>

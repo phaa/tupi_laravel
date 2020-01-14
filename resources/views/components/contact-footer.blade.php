@@ -26,7 +26,24 @@
                     </div>
                 </div>
             </div>
-
+            <div class="col-sm-8 col-md-5 col-lg-4 m-l-r-auto p-t-30">
+                <div class="dis-flex m-l-23">
+                    <div class="p-r-40 p-t-6">
+                        <i style="font-size: 30px; color: #222;" class="fas fa-envelope dis-inline-block size19" aria-hidden="true"></i>
+                    </div>
+                    <div class="flex-col-l">
+                        <span class="txt37 p-b-10">
+                            E-mail
+                        </span>
+                        <a href="mailto:contato@restaurantetupi.com.br">
+                            <span class="txt38" style="text-transform: lowercase;">
+                                contato@
+                                <br>restaurantetupi.com.br
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-8 col-md-3 col-lg-4 m-l-r-auto p-t-30">
                 <div class="dis-flex m-l-23">
                     <div class="p-r-40 p-t-6">
@@ -49,55 +66,29 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-8 col-md-5 col-lg-4 m-l-r-auto p-t-30">
-                <div class="dis-flex m-l-23">
-                    <div class="p-r-40 p-t-6">
-                        <i style="font-size: 30px; color: #222;" class="fas fa-envelope dis-inline-block size19" aria-hidden="true"></i>
-                    </div>
-                    <div class="flex-col-l">
-                        <span class="txt37 p-b-10">
-                            E-mail
-                        </span>
-                        <a href="mailto:restaurantetupi@hotmail.com">
-                            <span class="txt38 size38" style="text-transform: lowercase;">
-                                restaurantetupi <br> @hotmail.com
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
-
-        <p class="txt14 t-center m-t-50">
-            <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
-            Terça a Domingo das 11:00 às 16:00
-        </p>
-        <div class="m-l-r-auto row"> 
-            <div class="col"> 
+        <div class="m-t-30"> 
+            <div class="t-center"> 
                 <img src="{{ asset('images/icons/cards/visa.png') }}">
-            </div>
-            <div class="col"> 
+            
                 <img src="{{ asset('images/icons/cards/visaeletron.png') }}">
-            </div>
-            <div class="col"> 
+            
                 <img src="{{ asset('images/icons/cards/master.png') }}">
-            </div>
-            <div class="col"> 
+           
                 <img src="{{ asset('images/icons/cards/maestro.png') }}">
-            </div>
-            <div class="col"> 
+            
                 <img src="{{ asset('images/icons/cards/hiper.png') }}">
-            </div>
-            <div class="col"> 
+            
                 <img src="{{ asset('images/icons/cards/amex.png') }}">
-            </div>
-            <div class="col"> 
+            
                 <img src="{{ asset('images/icons/cards/elo_deb.png') }}">
-            </div>
-            <div class="col"> 
+            
                 <img src="{{ asset('images/icons/cards/elo_cred.png') }}">
             </div>
         </div>
+        <p class="txt14 t-center m-t-30">
+            <i style="font-size: 30px; color: #222;" class="fas fa-clock dis-inline-block size19 m-r-10" aria-hidden="true"></i>
+            Terça a Domingo 11:00 às 16:00
+        </p>
     </div>
 </section>

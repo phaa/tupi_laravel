@@ -61,8 +61,19 @@ Sobre Nós
 		</p>
 	</section>
 
+	<section>
+		<div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
+			<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
+				O melhor
+			</span>
+			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+				Região sul do RN
+			</h3>
+		</div>
+	</section>
+
 	<!-- Why Tupi -->
-	<section class="bg2-pattern p-t-30 p-b-110 t-center p-l-15 p-r-15">
+	<section class="bg2-pattern p-t-70 p-b-70 t-center p-l-15 p-r-15">
 		<span class="tit2 t-center">
 			Significado
 		</span>
@@ -83,17 +94,6 @@ Sobre Nós
 			mesmo que pouco, o primeiro idioma do Brasil, os primeiros habitantes das nossas 
 			terras e a cultura indígena que na sua essência é belíssima e muito rica.
 		</p>
-	</section>
-
-	<section>
-		<div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
-			<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
-				O melhor
-			</span>
-			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-				Região sul do RN
-			</h3>
-		</div>
 	</section>
 
 	<section class="bg1-pattern">
@@ -121,7 +121,7 @@ Sobre Nós
 							</h4>
 
 							<p class="m-b-20">
-								O Restaurante tupi dispõe de um vasto espaço interno no qual os clientes podem se acomodar...
+								O Restaurante tupi dispõe de um vasto espaço com 120 lugares para atendermos nossos clientes
 							</p>
 						</div>
 					</div>
@@ -131,7 +131,7 @@ Sobre Nós
 					<div class="blo1">
 						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
 							<a href="{{ asset('images/original/parque.jpg') }}" data-lightbox="gallery">
-								<img src="{{ asset('images/thumbs/parque.jpg') }}" alt="Parque Tupi">
+								<img src="{{ asset('images/thumbs/parque.jpg') }}" alt="Playground Tupi">
 							</a>
 						</div>
 						<div class="wrap-text-blo1 p-t-35">

@@ -1,9 +1,13 @@
 @extends('templates.layout')
 
+@section('extra_meta')
+	<meta name="description" content="Veja as informações de e-mail, telefones e endereço do Restaurante Tupi"/>
+	<link rel="canonical" href="http://restaurantetupi.com.br/contato" />
+@endsection
+
 @section('title')
 Contato
 @endsection
-
 
 <!-- Page Content -->
 @section('page_content')

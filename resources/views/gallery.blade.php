@@ -1,5 +1,10 @@
 @extends('templates.layout')
 
+@section('extra_meta')
+	<meta name="description" content="Veja a galeria de fotos de pratos, ambientes e eventos do Restaurante Tupi"/>
+	<link rel="canonical" href="http://restaurantetupi.com.br/galeria" />
+@endsection
+
 @section('title')
 Galeria
 @endsection
@@ -36,15 +41,15 @@ Galeria
 				@endforeach
 				{{ $images->links() }}
 			</div>
-			<div class="page-load-status">
-			<div class="loader-ellips infinite-scroll-request">
-				<span class="loader-ellips__dot"></span>
-				<span class="loader-ellips__dot"></span>
-				<span class="loader-ellips__dot"></span>
-				<span class="loader-ellips__dot"></span>
-			</div>
-			<p class="infinite-scroll-last">Fim das fotos</p>
-			<p class="infinite-scroll-error">Nenhum dado para carregar</p>
+			<div class="page-load-status" style="border-top: 1px solid #222;">
+				<div class="loader-ellips infinite-scroll-request">
+					<span class="loader-ellips__dot"></span>
+					<span class="loader-ellips__dot"></span>
+					<span class="loader-ellips__dot"></span>
+					<span class="loader-ellips__dot"></span>
+				</div>
+				<p class="infinite-scroll-last t-center">Fim das fotos</p>
+				<p class="infinite-scroll-error t-center">Nenhum dado para carregar</p>
 			</div>
 		</div>
 	</section>
