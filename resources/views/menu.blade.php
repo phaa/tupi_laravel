@@ -16,8 +16,8 @@
     <div class="container">
         <div class="row justify-content-md-center contact-footer m-b-30">
             <div class="col-sm-12 text-center">
-                <span class="tit2">Os Mais pedidos</span>
-                <h1 class="txt1 ">Da casa</h1>
+                <span class="tit2">Os Pratos</span>
+                <h1 class="txt1 ">Mais Pedidos</h1>
             </div>
             <div style="margin: auto 0" class="col-sm-12 text-center">
                 <span class="txt21">

@@ -8,6 +8,58 @@
     <meta name="generator" content="N/A">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="canonical" href="http://restaurantetupi.com.br/" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "image": [
+                "https://1.kekantoimg.com/_7n_51x_h9MdWIAveaXiF9z74Vc=/fit-in/600x600/s3.amazonaws.com/kekanto_pics/pics/757/293757.jpg",
+                "https://example.com/photos/4x3/photo.jpg",
+                "https://example.com/photos/16x9/photo.jpg"
+            ],
+            "@id": "http://restaurantetupi.com.br/sobre",
+            "name": "Restaurante Tupi",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "km 157 BR-101 sentido Paraíba - Fazenda Pituba",
+                "addressLocality": "Goianinha",
+                "addressRegion": "RN",
+                "postalCode": "59173-000",
+                "addressCountry": "BR"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "reviewCount": "109",
+                "ratingValue": "4.7"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -6.3496198,
+                "longitude": -35.1668902
+            },
+            "url": "http://www.restaurantetupi.com.br",
+            "telephone": "+5584991432723",
+            "servesCuisine": "Nordestina",
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+                {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "opens": "11:00",
+                "closes": "16:00"
+                }
+            ],
+            "menu": "http://www.restaurantetupi.com.br/cardapio",
+            "acceptsReservations": "False"
+        }
+    </script>
 @endsection
 
 @section('title')
@@ -68,9 +120,7 @@ Restaurante Tupi
                     </h3>
                 </div>
             </div>
-
         </div>
-
         <div class="wrap-slick1-dots"></div>
     </div>
 </section>
@@ -78,43 +128,31 @@ Restaurante Tupi
 <!-- Welcome -->
 <section class="section-welcome bg1-pattern p-t-70 p-b-70">
 	<div class="container">
-		<!-- A little about -->
 		<div class="row">
-			<div class="col-md-6 p-t-35 p-b-30">
+			<div class="col-md-6 p-t-35 p-b-30 v-centralized">
 				<div class="wrap-text-welcome t-center">
-					<span class="tit2 t-center">
-						Somos um
-					</span>
-                    <br>
-					<h1 class="tit3 t-center m-t-5" style="font-size: 30px;">
-						Restaurante de culinária nordestina a 60 km de Natal
+                    <h1 class="t-center size3 m-l-r-auto">
+						<span class="tit2">Restaurante de Culinária nordestina</span><br>
+                        <span class="tit3">A Caminho de Natal e João Pessoa</span><i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
                     </h1>
+                    
                     <!--presentation-footer-->
-					<p class="m-b-22 size3 p-t-20 m-l-r-auto ">
-                        &emsp;&emsp;Somos uma restaurante familiar atuando no mercado gastronômico há onze 
-                        anos, objetivando serviços de qualidade e padrão, aliado a preço 
-                        justo, porque acreditamos que, comida boa e saborosa com atendimento 
-                        eficaz não precisa ser caro.
-	                    <br>
-                        &emsp;&emsp;O Tupi foi pensado e criado para oferecer aos clientes refeições 
-                        saborosas em um ambiente agradável, tranquilo e diferenciado, com 
-                        acessibilidade e segurança. O espaço proporciona às famílias momentos
-                        de paz e bem-estar em meio à natureza. A proposta da casa é, comer
-                        bem e relaxar, fugir da agitação do dia a dia, conversar e se 
-                        envolver com a natureza ao redor. Meditar, colocar o pé no chão, 
-                        sentir a brisa fresca, ouvir o canto dos pássaros e desfrutar das 
-                        belas paisagens.
+					<p class="m-b-22 size3 p-t-20 m-l-r-auto">
+                        &emsp;&emsp;Atuando no mercado gastronômico há doze 
+                        anos, somos uma empresa familiar que acredita que comida saborosa e 
+                        atendimento eficiente não precisam ser caros. Por isso, objetivamos
+                        proporcionar serviços com alto padrão de qualidade aliados a um preço justo.
+                        Clique <a href="{{ route('about') }}">aqui</a> e saiba mais!
 					</p>
-                    <a href="#contact" class="txt38"> PAGAMENTO</a>
+                    <a href="#contact" class="txt38">LOCALIZAÇÃO</a>
                     •<a href="#feedbacks" class="txt38"> OPNIÕES</a>
                     •<a href="#contact" class="txt38"> CONTATOS</a>
 				</div>
 			</div>
-
 			<div class="col-md-6 p-b-30">
                 <div style="height: 100%;" class="bo-rad-10 hov-img-zoom m-l-r-auto">
                     <a href="{{ asset('images/original/entrada.jpg') }}" data-lightbox="gallery">
-                        <img style="object-fit: cover;" src="{{ asset('images/thumbs/entrada.jpg') }}" alt="Entrada Restaurante Tupi">
+                        <img src="{{ asset('images/thumbs/entrada.jpg') }}" alt="Entrada Restaurante Tupi">
                     </a>
                 </div>
 			</div>
@@ -133,9 +171,9 @@ Restaurante Tupi
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
 			Conheça o
 		</span>
-		<h2 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 			Vale da Gruta do Bode
-		</h2>
+		</h3>
 	</div>
 </section>
 
@@ -174,9 +212,9 @@ Restaurante Tupi
 		<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
 			Simplicidade e elegância
 		</span>
-        <h2 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+        <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 			Ambiente rústico
-		</h2>
+		</h3>
 	</div>
 </section>
 
@@ -188,7 +226,7 @@ Restaurante Tupi
 		</span>
         <br>
         <p class="tit3 m-b-5 m-t-5 t-center contact-footer">
-            Acompanhe nosso trabalho
+            Veja nosso Instagram
         </p>
         <br>
     </div>

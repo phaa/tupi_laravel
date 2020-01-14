@@ -17,9 +17,9 @@ Galeria
 		<!-- Gallery -->
 		<div class="section-gallery p-t-70 p-b-50 bg1-pattern container">
 			<div class="t-center">
-				<span class="tit2 p-l-15 p-r-15">
+				<!--span class="tit2 p-l-15 p-r-15">
 					Filtros
-				</span>
+				</span-->
 			</div>
 
 			<div class="grid are-images-unloaded">

@@ -2,6 +2,7 @@
 
 $success: #43A906;
 $gray6: #666666;
+$gray2: #222;
 $gray3: #333;
 $white: #fff;
 
@@ -49,10 +50,10 @@ body, html {
 
 a {
   font-family: Inkfree;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.7;
-  color: $gray3;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.5;
+  color: $success;
   margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -755,6 +756,8 @@ iframe {
 .social {
   a {
     color: #fff;
+    font-size: 17px;
+    font-weight: 400;
     &:hover{
       color: $success;
     }

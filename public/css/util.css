@@ -6659,6 +6659,12 @@
   text-transform: uppercase; }
 
 /* ------------------------------------ */
+.v-centralized {
+  margin: auto 0; }
+
+.h-centralized {
+  margin: 0 auto; }
+
 .t-center {
   text-align: center; }
 
@@ -7459,7 +7465,7 @@
   line-height: 1.2;
   color: #222222;
   text-transform: uppercase;
-  letter-spacing: 6px; }
+  letter-spacing: 4px; }
 
 .tit4 {
   font-family: Inkburrow;

@@ -32,10 +32,10 @@ body, html {
 /* ------------------------------------ */
 a {
   font-family: Inkfree;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #333;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #43A906;
   margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -704,7 +704,9 @@ iframe {
 -----------------------------------------------------------
 */
 .social a {
-  color: #fff; }
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400; }
   .social a:hover {
     color: #43A906; }
 

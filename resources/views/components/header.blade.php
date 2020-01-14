@@ -5,8 +5,8 @@
             <div class="wrap_header trans-0-3">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="/">
-                        <img src="{{ asset("images/icons/tupi_logo.png") }}" alt="IMG-LOGO">
+                    <a href="{{ route('index') }}">
+                        <img src="{{ asset("images/icons/tupi_logo.png") }}" alt="Logomarca Tupi">
                     </a>
                 </div>
 
@@ -19,23 +19,23 @@
                             </li>
 
                             <li class="{{ Route::current()->getName() == 'menu' ? 'active_link' : '' }}">
-                                <a href="{{ route('menu') }}" class="">Cardápio</a>
+                                <a href="{{ route('menu') }}">Cardápio</a>
                             </li>
 
                             <li class="{{ Route::current()->getName() == 'gallery' ? 'active_link' : '' }}">
-                                <a href="{{ route('gallery') }}" class="">Galeria</a>
+                                <a href="{{ route('gallery') }}">Galeria</a>
                             </li>
 
                             <li class="{{ Route::current()->getName() == 'about' ? 'active_link' : '' }}">
-                                <a href="{{ route('about') }}" class="">Sobre</a>
+                                <a href="{{ route('about') }}">Sobre</a>
                             </li>
 
                             <!--li class="{{ Route::current()->getName() == 'blog' ? 'active_link' : '' }}">
-                                <a href="{{ route('blog') }}" class="">Blog</a>
+                                <a href="{{ route('blog') }}">Blog</a>
                             </li-->
 
                             <li class="{{ Route::current()->getName() == 'contact' ? 'active_link' : '' }}">
-                                <a href="{{ route('contact') }}" class="">Fale Conosco</a>
+                                <a href="{{ route('contact') }}">Fale Conosco</a>
                             </li>
                         </ul>
                     </nav>
