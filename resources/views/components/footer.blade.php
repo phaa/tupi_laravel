@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="txt17 p-r-20 p-t-5 p-b-5">
-                    Restaurante Tupi &copy; 2018 Todos os direitos reservados | Feito com <i class="fa fa-heart"></i> por <a style="color: #43A906;" href="https://facebook.com/pedro.amorimdeazevedo" target="_blank">Pedro Amorim</a> & <a style="color: #43A906;" href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Restaurante Tupi &copy; 2018 Todos os direitos reservados | Feito com <i class="fa fa-heart"></i> por <a style="color: #43A906;font-size: 15px;font-weight: 400;" href="https://facebook.com/pedro.amorimdeazevedo" target="_blank">Pedro Amorim</a> & <a style="color: #43A906;font-size: 15px;font-weight: 400;" href="https://colorlib.com" target="_blank">Colorlib</a>
                 </div>
             </div>
         </div>

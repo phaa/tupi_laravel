@@ -121,7 +121,8 @@ Sobre Nós
 							</h4>
 
 							<p class="m-b-20">
-								O Restaurante tupi dispõe de um vasto espaço com 120 lugares para atendermos nossos clientes
+								Dispomos de um vasto espaço coberto com 120 lugares para a maior comodidade 
+								dos nossos clientes.
 							</p>
 						</div>
 					</div>
@@ -140,7 +141,7 @@ Sobre Nós
 							</h4>
 
 							<p class="m-b-20">
-								O Restaurante Tupi possui um playground, no qual as crianças podem brincar etc....
+								Lazer para as crianças no jardim pertinho dos pais e responsáveis.
 							</p>
 						</div>
 					</div>
@@ -160,7 +161,7 @@ Sobre Nós
 							</h4>
 
 							<p class="m-b-20">
-								Nosso Restaurante dispõe de um local mais afastado direcionado ao repouso e relaxamento dos clientes.
+								Também dispomos de um espaço ventilado destinado ao repouso e relaxamento dos clientes.
 							</p>
 						</div>
 					</div>

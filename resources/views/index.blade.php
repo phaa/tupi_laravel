@@ -193,7 +193,7 @@ Restaurante Tupi - Comer bem e relaxar
 
 					<p class="t-center m-b-22 size3 m-l-r-auto">
 						Veja como eles ficaram contentes conosco.
-                        <br>Olhe as experiências que eles compartilharam daqui.<i style="color:#dc3545;" class="fa fa-heart"></i>
+                        <br>Olhe as experiências que eles compartilharam daqui<i style="color:#dc3545;" class="fa fa-heart"></i>
 					</p>
 				</div>
 			</div>
