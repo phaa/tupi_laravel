@@ -2,7 +2,6 @@
 
 @section('extra_meta')
 <meta name="description" content="Confira os pratos mais pedidos no Restaurante Tupi." />
-<link rel="canonical" href="http://restaurantetupi.com.br/cardapio" /> 
 @endsection 
 
 @section('title') 
@@ -191,7 +190,7 @@ Cardápio
         </div>
         <div class="txt23 p-b-30">
             <p class="text-center">(Clique nas imagens para ampliar)</p>
-            <p class="text-center">Em caso de necessidade de conferir preços no cardápio para eventos, favor entrar em contato por telefone.</p>
+            <p class="text-center">Caso necessite conferir preços do cardápio, favor entrar em contato pelo telefone ou Whatsapp.</p>
         </div>
     </div>
 </section>

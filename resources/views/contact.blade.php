@@ -2,7 +2,6 @@
 
 @section('extra_meta')
 	<meta name="description" content="Veja as informações de e-mail, telefones e endereço do Restaurante Tupi"/>
-	<link rel="canonical" href="http://restaurantetupi.com.br/contato" />
 @endsection
 
 @section('title')

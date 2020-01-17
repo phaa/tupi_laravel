@@ -10,7 +10,7 @@ class ShowMenu extends Controller
 {
     public function __invoke()
     {
-        $context = [
+        /*$context = [
             'bebidas' => Product::where('type_id', 1)->orderBy('name')->get(),
             'sucos' => Product::where('type_id', 2)->orderBy('name')->get(),
             'alcolicos' => Product::where('type_id', 3)->orderBy('name')->get(),
@@ -22,7 +22,7 @@ class ShowMenu extends Controller
             'pratos_individuais' => Product::where('type_id', 9)->orderBy('name')->get(),
             'cafes' => Product::where('type_id', 10)->orderBy('name')->get(),
             'sobremesas' => Product::where('type_id', 11)->orderBy('name')->get(),
-        ];
-        return view('menu', $context);
+        ];*/
+        return view('menu');
     }
 }

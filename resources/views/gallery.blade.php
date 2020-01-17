@@ -2,7 +2,6 @@
 
 @section('extra_meta')
 	<meta name="description" content="Veja a galeria de fotos de pratos, ambientes e eventos do Restaurante Tupi"/>
-	<link rel="canonical" href="http://restaurantetupi.com.br/galeria" />
 @endsection
 
 @section('title')

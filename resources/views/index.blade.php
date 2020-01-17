@@ -1,13 +1,10 @@
 @extends('templates.layout')
 
 @section('extra_meta')
-    <meta name="description" content="Bem-vindo ao Tupi. Restaurante de culinária nordestina no caminho entre Natal e João Pessoa. Ambiente rústico e confortável em meio à mata atlântica">
-    <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="7 day">
+    <meta name="description" content="Bem-vindo ao Tupi. Restaurante de culinária nordestina a 600 metros da BR-101 no caminho entre Natal e João Pessoa. Ambiente rústico e confortável em meio à mata atlântica">
     <meta name="language" content="Portuguese">
-    <meta name="generator" content="N/A">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="canonical" href="http://restaurantetupi.com.br/" />
+    <link rel="dns-prefetch" href="https://apps.elfsight.com">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -63,7 +60,7 @@
 @endsection
 
 @section('title')
-Restaurante Tupi - Comer bem e relaxar
+Restaurante Tupi - Comer bem com a natureza
 @endsection
 
 <!-- Index blade -->
@@ -78,7 +75,7 @@ Restaurante Tupi - Comer bem e relaxar
                         Restaurante Tupi
                     </h2>
                     <span class="caption2-slide1 tit1 t-center animated visible-false" data-appear="fadeInUp">
-                        Bem vindo!
+                        Bem Vindo!
                     </span>
                 </div>
             </div>
@@ -132,13 +129,13 @@ Restaurante Tupi - Comer bem e relaxar
 			<div class="col-md-6 p-t-35 p-b-30 v-centralized">
 				<div class="wrap-text-welcome t-center">
                     <h1 class="t-center size3 m-l-r-auto">
-						<span class="tit2">Restaurante de Culinária nordestina</span><br>
+						<span class="tit2">Restaurante de culinária nordestina</span><br>
                         <span class="tit3">Entre Natal e João Pessoa</span><i style="font-size: 30px;" class="fas fa-map-marker dis-inline-block" aria-hidden="true"></i>
                     </h1>
                     
                     <!--presentation-footer-->
 					<p class="m-b-22 size3 p-t-20 m-l-r-auto">
-                        &emsp;&emsp;Atuando no mercado gastronômico há doze 
+                        &emsp;&emsp;Atuando no mercado gastronômico há onze 
                         anos, somos uma empresa familiar que acredita que comida saborosa e 
                         atendimento eficiente não precisam ser caros. Por isso, objetivamos
                         proporcionar serviços com alto padrão de qualidade aliados a um preço justo.
@@ -225,8 +222,8 @@ Restaurante Tupi - Comer bem e relaxar
 			Siga-nos 
 		</span>
         <br>
-        <p class="tit3 m-b-5 m-t-5 t-center contact-footer">
-            Veja nosso Instagram
+        <p class="tit3 m-b-5 m-t-5 t-center contact-footer" style="text-transform:lowercase;">
+            @restaurante_tupi
         </p>
         <br>
     </div>

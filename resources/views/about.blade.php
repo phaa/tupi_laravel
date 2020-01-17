@@ -2,19 +2,18 @@
 
 @section('extra_meta')
 	<meta name="description" content="Conheça a história do melhor restaurante da região sul do RN."/>
-	<link rel="canonical" href="http://restaurantetupi.com.br/sobre" />
 @endsection
 
 @section('title')
-Sobre Nós
+Restaurante Tupi - Sobre Nós
 @endsection
 
 @section('page_content')
 	<!-- Title Page -->
 	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/1800px/gramado.jpg);">
-		<h2 class="tit6 t-center">
+		<h1 class="tit6 t-center">
 			Sobre Nós
-		</h2>
+		</h1>
 	</section>
 
 
@@ -64,7 +63,7 @@ Sobre Nós
 	<section>
 		<div class="header-intro the-best parallax100 t-center p-t-135 p-b-158">
 			<span class="tit2 p-l-15 p-r-15" style="color: #fff;">
-				O melhor
+				O melhor da
 			</span>
 			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
 				Região sul do RN
@@ -121,7 +120,7 @@ Sobre Nós
 							</h4>
 
 							<p class="m-b-20">
-								Dispomos de um vasto espaço coberto com 120 lugares para a maior comodidade 
+								Dispomos de um vasto espaço coberto com 120 lugares para a melhor comodidade 
 								dos nossos clientes.
 							</p>
 						</div>
@@ -169,20 +168,5 @@ Sobre Nós
 			</div>
 		</div>
 	</section>
-
-	<!-- Modal Video 01-->
-	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
-
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
-
-			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
-				<div class="video-mo-01">
-					<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
 
 @endsection

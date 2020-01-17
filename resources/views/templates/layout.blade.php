@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="robots" content= "index, follow, max-image-preview:large">
+		<meta name="robots" content="index, follow, max-image-preview:large">
 		<link rel='dns-prefetch' href='//code.jquery.com'>
 		<link rel='dns-prefetch' href='//cdnjs.cloudflare.com'>
 		<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com'>
@@ -18,7 +18,7 @@
 		<title>@yield('title')</title>
 
 		<!-- Imports -->
-		<link rel="icon" type="image/png" href="{{ asset('images/icons/favicon.png') }}"/>
+		<link rel="shortcut icon" type="image/x-icon" href="https://restaurantetupi.com.br/images/icons/favicon.png"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" href="{{ asset("css/vendor.min.css") }}">
